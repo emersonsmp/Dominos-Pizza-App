@@ -1,0 +1,461 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D22AC7C02A09BE5A00C0659D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D22AC7BF2A09BE5A00C0659D /* AppDelegate.swift */; };
+		D22AC7C22A09BE5A00C0659D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D22AC7C12A09BE5A00C0659D /* SceneDelegate.swift */; };
+		D22AC7C42A09BE5A00C0659D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D22AC7C32A09BE5A00C0659D /* ViewController.swift */; };
+		D22AC7C92A09BE5B00C0659D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D22AC7C82A09BE5B00C0659D /* Assets.xcassets */; };
+		D22AC7CC2A09BE5B00C0659D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D22AC7CA2A09BE5B00C0659D /* LaunchScreen.storyboard */; };
+		D22AC7D92A09C1C100C0659D /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D22AC7D82A09C1C100C0659D /* LoginView.swift */; };
+		D22AC7DC2A09C94300C0659D /* HexadecimalColorUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = D22AC7DB2A09C94300C0659D /* HexadecimalColorUtil.swift */; };
+		D22AC7E52A0A94D100C0659D /* arial-black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D22AC7DE2A09DE2400C0659D /* arial-black.ttf */; };
+		D22AC7E62A0A94DE00C0659D /* Montserrat-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D22AC7E12A0A897500C0659D /* Montserrat-Black.ttf */; };
+		D22AC7EC2A0AA4CA00C0659D /* DashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D22AC7EB2A0AA4CA00C0659D /* DashboardViewController.swift */; };
+		D22AC7EE2A0AA55200C0659D /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D22AC7ED2A0AA55200C0659D /* DashboardView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D22AC7BC2A09BE5A00C0659D /* Dominos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dominos.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D22AC7BF2A09BE5A00C0659D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D22AC7C12A09BE5A00C0659D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D22AC7C32A09BE5A00C0659D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D22AC7C82A09BE5B00C0659D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D22AC7CB2A09BE5B00C0659D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D22AC7CD2A09BE5B00C0659D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D22AC7D82A09C1C100C0659D /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		D22AC7DB2A09C94300C0659D /* HexadecimalColorUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HexadecimalColorUtil.swift; sourceTree = "<group>"; };
+		D22AC7DE2A09DE2400C0659D /* arial-black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "arial-black.ttf"; sourceTree = "<group>"; };
+		D22AC7E12A0A897500C0659D /* Montserrat-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Black.ttf"; sourceTree = "<group>"; };
+		D22AC7EB2A0AA4CA00C0659D /* DashboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewController.swift; sourceTree = "<group>"; };
+		D22AC7ED2A0AA55200C0659D /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D22AC7B92A09BE5A00C0659D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D22AC7B32A09BE5A00C0659D = {
+			isa = PBXGroup;
+			children = (
+				D22AC7BE2A09BE5A00C0659D /* Dominos */,
+				D22AC7BD2A09BE5A00C0659D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D22AC7BD2A09BE5A00C0659D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D22AC7BC2A09BE5A00C0659D /* Dominos.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D22AC7BE2A09BE5A00C0659D /* Dominos */ = {
+			isa = PBXGroup;
+			children = (
+				D22AC7DF2A09E23300C0659D /* Assets */,
+				D22AC7DA2A09C92600C0659D /* Utils */,
+				D22AC7D42A09C07A00C0659D /* Login */,
+				D22AC7E72A0AA45D00C0659D /* Dashboard */,
+				D22AC7BF2A09BE5A00C0659D /* AppDelegate.swift */,
+				D22AC7C12A09BE5A00C0659D /* SceneDelegate.swift */,
+				D22AC7C82A09BE5B00C0659D /* Assets.xcassets */,
+				D22AC7CA2A09BE5B00C0659D /* LaunchScreen.storyboard */,
+				D22AC7CD2A09BE5B00C0659D /* Info.plist */,
+			);
+			path = Dominos;
+			sourceTree = "<group>";
+		};
+		D22AC7D42A09C07A00C0659D /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				D22AC7D62A09C09100C0659D /* Model */,
+				D22AC7D52A09C08800C0659D /* View */,
+				D22AC7D72A09C09800C0659D /* ViewModel */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		D22AC7D52A09C08800C0659D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D22AC7C32A09BE5A00C0659D /* ViewController.swift */,
+				D22AC7D82A09C1C100C0659D /* LoginView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D22AC7D62A09C09100C0659D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D22AC7D72A09C09800C0659D /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		D22AC7DA2A09C92600C0659D /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				D22AC7DB2A09C94300C0659D /* HexadecimalColorUtil.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		D22AC7DD2A09DE0E00C0659D /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				D22AC7E12A0A897500C0659D /* Montserrat-Black.ttf */,
+				D22AC7DE2A09DE2400C0659D /* arial-black.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		D22AC7DF2A09E23300C0659D /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				D22AC7DD2A09DE0E00C0659D /* Fonts */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		D22AC7E72A0AA45D00C0659D /* Dashboard */ = {
+			isa = PBXGroup;
+			children = (
+				D22AC7EA2A0AA4A100C0659D /* Model */,
+				D22AC7E92A0AA49800C0659D /* View */,
+				D22AC7E82A0AA48000C0659D /* ViewModel */,
+			);
+			path = Dashboard;
+			sourceTree = "<group>";
+		};
+		D22AC7E82A0AA48000C0659D /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		D22AC7E92A0AA49800C0659D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D22AC7EB2A0AA4CA00C0659D /* DashboardViewController.swift */,
+				D22AC7ED2A0AA55200C0659D /* DashboardView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D22AC7EA2A0AA4A100C0659D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D22AC7BB2A09BE5A00C0659D /* Dominos */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D22AC7D02A09BE5B00C0659D /* Build configuration list for PBXNativeTarget "Dominos" */;
+			buildPhases = (
+				D22AC7B82A09BE5A00C0659D /* Sources */,
+				D22AC7B92A09BE5A00C0659D /* Frameworks */,
+				D22AC7BA2A09BE5A00C0659D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Dominos;
+			productName = Dominos;
+			productReference = D22AC7BC2A09BE5A00C0659D /* Dominos.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D22AC7B42A09BE5A00C0659D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					D22AC7BB2A09BE5A00C0659D = {
+						CreatedOnToolsVersion = 14.3;
+					};
+				};
+			};
+			buildConfigurationList = D22AC7B72A09BE5A00C0659D /* Build configuration list for PBXProject "Dominos" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D22AC7B32A09BE5A00C0659D;
+			productRefGroup = D22AC7BD2A09BE5A00C0659D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D22AC7BB2A09BE5A00C0659D /* Dominos */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D22AC7BA2A09BE5A00C0659D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D22AC7CC2A09BE5B00C0659D /* LaunchScreen.storyboard in Resources */,
+				D22AC7E62A0A94DE00C0659D /* Montserrat-Black.ttf in Resources */,
+				D22AC7C92A09BE5B00C0659D /* Assets.xcassets in Resources */,
+				D22AC7E52A0A94D100C0659D /* arial-black.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D22AC7B82A09BE5A00C0659D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D22AC7C42A09BE5A00C0659D /* ViewController.swift in Sources */,
+				D22AC7EC2A0AA4CA00C0659D /* DashboardViewController.swift in Sources */,
+				D22AC7C02A09BE5A00C0659D /* AppDelegate.swift in Sources */,
+				D22AC7EE2A0AA55200C0659D /* DashboardView.swift in Sources */,
+				D22AC7D92A09C1C100C0659D /* LoginView.swift in Sources */,
+				D22AC7C22A09BE5A00C0659D /* SceneDelegate.swift in Sources */,
+				D22AC7DC2A09C94300C0659D /* HexadecimalColorUtil.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D22AC7CA2A09BE5B00C0659D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D22AC7CB2A09BE5B00C0659D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D22AC7CE2A09BE5B00C0659D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D22AC7CF2A09BE5B00C0659D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D22AC7D12A09BE5B00C0659D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 263SAWVFCC;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Dominos/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.smp.Dominos;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D22AC7D22A09BE5B00C0659D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 263SAWVFCC;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Dominos/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.smp.Dominos;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D22AC7B72A09BE5A00C0659D /* Build configuration list for PBXProject "Dominos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D22AC7CE2A09BE5B00C0659D /* Debug */,
+				D22AC7CF2A09BE5B00C0659D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D22AC7D02A09BE5B00C0659D /* Build configuration list for PBXNativeTarget "Dominos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D22AC7D12A09BE5B00C0659D /* Debug */,
+				D22AC7D22A09BE5B00C0659D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D22AC7B42A09BE5A00C0659D /* Project object */;
+}

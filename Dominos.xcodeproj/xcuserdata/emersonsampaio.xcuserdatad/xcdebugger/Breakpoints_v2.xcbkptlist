@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "47AF496E-5CA3-4DCA-AE17-169B558623F1"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "385D5ED2-7B84-4B92-9D96-35CDB24945EB"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Dominos/Login/View/LoginView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "75"
+            endingLineNumber = "75"
+            landmarkName = "LoginVIew"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "385D5ED2-7B84-4B92-9D96-35CDB24945EB - fd2ed7d10dd95d64"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Dominos.LoginVIew.buttonLogin.getter : __C.UIButton"
+                  moduleName = "Dominos"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/emersonsampaio/Desktop/Desenvolvimento/UIKIT/Dominos/Dominos/Login/View/LoginView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "75"
+                  endingLineNumber = "75"
+                  offsetFromSymbolStart = "164">
+               </Location>
+               <Location
+                  uuid = "385D5ED2-7B84-4B92-9D96-35CDB24945EB - fb36a511875bbd91"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; __C.UIButton in Dominos.LoginVIew.buttonLogin.getter : __C.UIButton"
+                  moduleName = "Dominos"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/emersonsampaio/Desktop/Desenvolvimento/UIKIT/Dominos/Dominos/Login/View/LoginView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "76"
+                  endingLineNumber = "76"
+                  offsetFromSymbolStart = "76">
+               </Location>
+               <Location
+                  uuid = "385D5ED2-7B84-4B92-9D96-35CDB24945EB - dcee3a7804924d70"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Dominos.LoginVIew.buttonLogin.setter : __C.UIButton"
+                  moduleName = "Dominos"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/emersonsampaio/Desktop/Desenvolvimento/UIKIT/Dominos/Dominos/Login/View/LoginView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "75"
+                  endingLineNumber = "75"
+                  offsetFromSymbolStart = "108">
+               </Location>
+               <Location
+                  uuid = "385D5ED2-7B84-4B92-9D96-35CDB24945EB - 11607b7164226963"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Dominos.LoginVIew.buttonLogin.modify : __C.UIButton"
+                  moduleName = "Dominos"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/emersonsampaio/Desktop/Desenvolvimento/UIKIT/Dominos/Dominos/Login/View/LoginView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "75"
+                  endingLineNumber = "75"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "385D5ED2-7B84-4B92-9D96-35CDB24945EB - f21afcb970ec1f70"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Dominos.LoginVIew.buttonLogin.modify : __C.UIButton with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "Dominos"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/emersonsampaio/Desktop/Desenvolvimento/UIKIT/Dominos/Dominos/Login/View/LoginView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "75"
+                  endingLineNumber = "75"
+                  offsetFromSymbolStart = "20">
+               </Location>
+               <Location
+                  uuid = "385D5ED2-7B84-4B92-9D96-35CDB24945EB - 96a1feb0e8c2ed37"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Dominos.LoginVIew.init(frame: __C.CGRect) -&gt; Dominos.LoginVIew"
+                  moduleName = "Dominos"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/emersonsampaio/Desktop/Desenvolvimento/UIKIT/Dominos/Dominos/Login/View/LoginView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "75"
+                  endingLineNumber = "75"
+                  offsetFromSymbolStart = "276">
+               </Location>
+               <Location
+                  uuid = "385D5ED2-7B84-4B92-9D96-35CDB24945EB - 66b63db457da37cb"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Dominos.LoginVIew.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;Dominos.LoginVIew&gt;"
+                  moduleName = "Dominos"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/emersonsampaio/Desktop/Desenvolvimento/UIKIT/Dominos/Dominos/Login/View/LoginView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "75"
+                  endingLineNumber = "75"
+                  offsetFromSymbolStart = "268">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
