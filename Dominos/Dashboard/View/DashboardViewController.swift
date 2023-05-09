@@ -11,7 +11,7 @@ import UIKit
 class DashboardViewController: UIViewController {
     
     override func loadView() {
-        <#code#>
+        super.loadView()
     }
     
     required init?(coder: NSCoder) {
