@@ -16,8 +16,8 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "75"
             endingLineNumber = "75"
-            landmarkName = "LoginVIew"
-            landmarkType = "3">
+            landmarkName = "buttonLogin"
+            landmarkType = "24">
             <Locations>
                <Location
                   uuid = "385D5ED2-7B84-4B92-9D96-35CDB24945EB - fd2ed7d10dd95d64"

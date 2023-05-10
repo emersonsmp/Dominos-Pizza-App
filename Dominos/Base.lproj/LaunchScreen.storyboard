@@ -1,8 +1,10 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21678"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -11,15 +13,45 @@
             <objects>
                 <viewController id="01J-lp-oVM" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" xcode11CocoaTouchSystemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1Dj-7N-Wx2">
+                                <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="domino-clear" translatesAutoresizingMaskIntoConstraints="NO" id="DCR-KA-ZVG">
+                                        <rect key="frame" x="103" y="304" width="187" height="244"/>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" red="0.11764705882352941" green="0.39215686274509803" blue="0.56862745098039214" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="tintColor" red="0.11764705882352941" green="0.023529411764705882" blue="0.074509803921568626" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstItem="DCR-KA-ZVG" firstAttribute="top" secondItem="1Dj-7N-Wx2" secondAttribute="top" constant="304" id="EcG-tn-H8N"/>
+                                    <constraint firstAttribute="bottom" secondItem="DCR-KA-ZVG" secondAttribute="bottom" constant="304" id="aUd-KI-gk9"/>
+                                    <constraint firstAttribute="trailing" secondItem="DCR-KA-ZVG" secondAttribute="trailing" constant="103" id="obQ-rr-Tef"/>
+                                    <constraint firstItem="DCR-KA-ZVG" firstAttribute="leading" secondItem="1Dj-7N-Wx2" secondAttribute="leading" constant="103" id="xYh-es-DzA"/>
+                                </constraints>
+                            </view>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="1Dj-7N-Wx2" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="E9f-97-J10"/>
+                            <constraint firstItem="1Dj-7N-Wx2" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Vix-fR-Bju"/>
+                            <constraint firstItem="1Dj-7N-Wx2" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="bIG-Tw-v9H"/>
+                            <constraint firstAttribute="bottom" secondItem="1Dj-7N-Wx2" secondAttribute="bottom" id="tWx-Xe-4PI"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="53" y="375"/>
+            <point key="canvasLocation" x="52.671755725190835" y="374.64788732394368"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="domino-clear" width="640" height="644"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
 </document>

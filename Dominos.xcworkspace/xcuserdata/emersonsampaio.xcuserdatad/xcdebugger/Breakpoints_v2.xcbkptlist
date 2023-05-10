@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "368FB3F9-B5FA-4D03-9198-42089FDFF5E1"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "27750533-1A5F-432A-AF70-4C9BF6F40AD3"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Dominos/Dashboard/View/DashboardView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "271"
+            endingLineNumber = "271"
+            landmarkName = "unknown"
+            landmarkType = "0">
+            <Locations>
+               <Location
+                  uuid = "27750533-1A5F-432A-AF70-4C9BF6F40AD3 - 3c21683c34e156cb"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;__C.GMSReverseGeocodeResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Dominos.DashboardView.locationManager(_: __C.CLLocationManager, didUpdateLocations: Swift.Array&lt;__C.CLLocation&gt;) -&gt; ()"
+                  moduleName = "Dominos"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/emersonsampaio/Desktop/Desenvolvimento/UIKIT/Dominos-Pizza-App/Dominos/Dashboard/View/DashboardView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "265"
+                  endingLineNumber = "265"
+                  offsetFromSymbolStart = "580">
+               </Location>
+               <Location
+                  uuid = "27750533-1A5F-432A-AF70-4C9BF6F40AD3 - f7599a2e733ac0ae"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Dominos.DashboardView.locationManager(_: __C.CLLocationManager, didUpdateLocations: Swift.Array&lt;__C.CLLocation&gt;) -&gt; ()"
+                  moduleName = "Dominos"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/emersonsampaio/Desktop/Desenvolvimento/UIKIT/Dominos-Pizza-App/Dominos/Dashboard/View/DashboardView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "266"
+                  endingLineNumber = "266"
+                  offsetFromSymbolStart = "168">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6133EF31-9AD6-43EB-A8D1-3E2CFAED35EF"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Dominos/Dashboard/View/DashboardView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "261"
+            endingLineNumber = "261"
+            landmarkName = "unknown"
+            landmarkType = "0">
+            <Locations>
+               <Location
+                  uuid = "6133EF31-9AD6-43EB-A8D1-3E2CFAED35EF - f7599a2e733ac250"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Dominos.DashboardView.locationManager(_: __C.CLLocationManager, didUpdateLocations: Swift.Array&lt;__C.CLLocation&gt;) -&gt; ()"
+                  moduleName = "Dominos"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/emersonsampaio/Desktop/Desenvolvimento/UIKIT/Dominos-Pizza-App/Dominos/Dashboard/View/DashboardView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "256"
+                  endingLineNumber = "256"
+                  offsetFromSymbolStart = "56">
+               </Location>
+               <Location
+                  uuid = "6133EF31-9AD6-43EB-A8D1-3E2CFAED35EF - f7599a2e733ac271"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Dominos.DashboardView.locationManager(_: __C.CLLocationManager, didUpdateLocations: Swift.Array&lt;__C.CLLocation&gt;) -&gt; ()"
+                  moduleName = "Dominos"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/emersonsampaio/Desktop/Desenvolvimento/UIKIT/Dominos-Pizza-App/Dominos/Dashboard/View/DashboardView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "257"
+                  endingLineNumber = "257"
+                  offsetFromSymbolStart = "56">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "020CF405-7DB5-49D3-B974-8667A3F6E402"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Dominos/Dashboard/View/DashboardView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "270"
+            endingLineNumber = "270"
+            landmarkName = "unknown"
+            landmarkType = "0">
+            <Locations>
+               <Location
+                  uuid = "020CF405-7DB5-49D3-B974-8667A3F6E402 - 3c21683c34e156cb"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;__C.GMSReverseGeocodeResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Dominos.DashboardView.locationManager(_: __C.CLLocationManager, didUpdateLocations: Swift.Array&lt;__C.CLLocation&gt;) -&gt; ()"
+                  moduleName = "Dominos"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/emersonsampaio/Desktop/Desenvolvimento/UIKIT/Dominos-Pizza-App/Dominos/Dashboard/View/DashboardView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "265"
+                  endingLineNumber = "265"
+                  offsetFromSymbolStart = "580">
+               </Location>
+               <Location
+                  uuid = "020CF405-7DB5-49D3-B974-8667A3F6E402 - 3c21683c34e156cb"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;__C.GMSReverseGeocodeResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Dominos.DashboardView.locationManager(_: __C.CLLocationManager, didUpdateLocations: Swift.Array&lt;__C.CLLocation&gt;) -&gt; ()"
+                  moduleName = "Dominos"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/emersonsampaio/Desktop/Desenvolvimento/UIKIT/Dominos-Pizza-App/Dominos/Dashboard/View/DashboardView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "265"
+                  endingLineNumber = "265"
+                  offsetFromSymbolStart = "388">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B28C179D-773C-450A-A3A9-3D74BE3E1BBB"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Dominos/Dashboard/View/DashboardView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "266"
+            endingLineNumber = "266"
+            landmarkName = "unknown"
+            landmarkType = "0">
+            <Locations>
+               <Location
+                  uuid = "B28C179D-773C-450A-A3A9-3D74BE3E1BBB - 3c21683c34e157b7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;__C.GMSReverseGeocodeResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Dominos.DashboardView.locationManager(_: __C.CLLocationManager, didUpdateLocations: Swift.Array&lt;__C.CLLocation&gt;) -&gt; ()"
+                  moduleName = "Dominos"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/emersonsampaio/Desktop/Desenvolvimento/UIKIT/Dominos-Pizza-App/Dominos/Dashboard/View/DashboardView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "261"
+                  endingLineNumber = "261"
+                  offsetFromSymbolStart = "56">
+               </Location>
+               <Location
+                  uuid = "B28C179D-773C-450A-A3A9-3D74BE3E1BBB - 3c21683c34e157b7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;__C.GMSReverseGeocodeResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Dominos.DashboardView.locationManager(_: __C.CLLocationManager, didUpdateLocations: Swift.Array&lt;__C.CLLocation&gt;) -&gt; ()"
+                  moduleName = "Dominos"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/emersonsampaio/Desktop/Desenvolvimento/UIKIT/Dominos-Pizza-App/Dominos/Dashboard/View/DashboardView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "261"
+                  endingLineNumber = "261"
+                  offsetFromSymbolStart = "196">
+               </Location>
+               <Location
+                  uuid = "B28C179D-773C-450A-A3A9-3D74BE3E1BBB - 3c21683c34e157b7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;__C.GMSReverseGeocodeResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Dominos.DashboardView.locationManager(_: __C.CLLocationManager, didUpdateLocations: Swift.Array&lt;__C.CLLocation&gt;) -&gt; ()"
+                  moduleName = "Dominos"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/emersonsampaio/Desktop/Desenvolvimento/UIKIT/Dominos-Pizza-App/Dominos/Dashboard/View/DashboardView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "261"
+                  endingLineNumber = "261"
+                  offsetFromSymbolStart = "280">
+               </Location>
+               <Location
+                  uuid = "B28C179D-773C-450A-A3A9-3D74BE3E1BBB - f7599a2e733ac1f5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Dominos.DashboardView.locationManager(_: __C.CLLocationManager, didUpdateLocations: Swift.Array&lt;__C.CLLocation&gt;) -&gt; ()"
+                  moduleName = "Dominos"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/emersonsampaio/Desktop/Desenvolvimento/UIKIT/Dominos-Pizza-App/Dominos/Dashboard/View/DashboardView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "261"
+                  endingLineNumber = "261"
+                  offsetFromSymbolStart = "216">
+               </Location>
+               <Location
+                  uuid = "B28C179D-773C-450A-A3A9-3D74BE3E1BBB - 3c21683c34e15768"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;__C.GMSReverseGeocodeResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Dominos.DashboardView.locationManager(_: __C.CLLocationManager, didUpdateLocations: Swift.Array&lt;__C.CLLocation&gt;) -&gt; ()"
+                  moduleName = "Dominos"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/emersonsampaio/Desktop/Desenvolvimento/UIKIT/Dominos-Pizza-App/Dominos/Dashboard/View/DashboardView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "262"
+                  endingLineNumber = "262"
+                  offsetFromSymbolStart = "56">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A3FBC24D-A4B6-4A29-8D1E-F0DDD7E3C76D"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Dominos/Dashboard/View/DashboardView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "265"
+            endingLineNumber = "265"
+            landmarkName = "unknown"
+            landmarkType = "0">
+            <Locations>
+               <Location
+                  uuid = "A3FBC24D-A4B6-4A29-8D1E-F0DDD7E3C76D - f7599a2e733ac1d4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Dominos.DashboardView.locationManager(_: __C.CLLocationManager, didUpdateLocations: Swift.Array&lt;__C.CLLocation&gt;) -&gt; ()"
+                  moduleName = "Dominos"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/emersonsampaio/Desktop/Desenvolvimento/UIKIT/Dominos-Pizza-App/Dominos/Dashboard/View/DashboardView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "260"
+                  endingLineNumber = "260"
+                  offsetFromSymbolStart = "216">
+               </Location>
+               <Location
+                  uuid = "A3FBC24D-A4B6-4A29-8D1E-F0DDD7E3C76D - 3c21683c34e157b7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;__C.GMSReverseGeocodeResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Dominos.DashboardView.locationManager(_: __C.CLLocationManager, didUpdateLocations: Swift.Array&lt;__C.CLLocation&gt;) -&gt; ()"
+                  moduleName = "Dominos"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/emersonsampaio/Desktop/Desenvolvimento/UIKIT/Dominos-Pizza-App/Dominos/Dashboard/View/DashboardView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "261"
+                  endingLineNumber = "261"
+                  offsetFromSymbolStart = "56">
+               </Location>
+               <Location
+                  uuid = "A3FBC24D-A4B6-4A29-8D1E-F0DDD7E3C76D - f7599a2e733ac1d4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Dominos.DashboardView.locationManager(_: __C.CLLocationManager, didUpdateLocations: Swift.Array&lt;__C.CLLocation&gt;) -&gt; ()"
+                  moduleName = "Dominos"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/emersonsampaio/Desktop/Desenvolvimento/UIKIT/Dominos-Pizza-App/Dominos/Dashboard/View/DashboardView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "260"
+                  endingLineNumber = "260"
+                  offsetFromSymbolStart = "184">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

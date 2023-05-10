@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4C0109642AF68DF8CD484989 /* Pods_Dominos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF6D5AD3244F919BB321BCCF /* Pods_Dominos.framework */; };
 		D22AC7C02A09BE5A00C0659D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D22AC7BF2A09BE5A00C0659D /* AppDelegate.swift */; };
 		D22AC7C22A09BE5A00C0659D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D22AC7C12A09BE5A00C0659D /* SceneDelegate.swift */; };
 		D22AC7C42A09BE5A00C0659D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D22AC7C32A09BE5A00C0659D /* ViewController.swift */; };
@@ -18,9 +19,13 @@
 		D22AC7E62A0A94DE00C0659D /* Montserrat-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D22AC7E12A0A897500C0659D /* Montserrat-Black.ttf */; };
 		D22AC7EC2A0AA4CA00C0659D /* DashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D22AC7EB2A0AA4CA00C0659D /* DashboardViewController.swift */; };
 		D22AC7EE2A0AA55200C0659D /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D22AC7ED2A0AA55200C0659D /* DashboardView.swift */; };
+		D22AC7F12A0AE3B900C0659D /* FrameComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = D22AC7F02A0AE3B900C0659D /* FrameComponent.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0961286478E3BD3CD06754CA /* Pods-Dominos.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dominos.debug.xcconfig"; path = "Target Support Files/Pods-Dominos/Pods-Dominos.debug.xcconfig"; sourceTree = "<group>"; };
+		3E214B3115766B13E18D1DA1 /* Pods-Dominos.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dominos.release.xcconfig"; path = "Target Support Files/Pods-Dominos/Pods-Dominos.release.xcconfig"; sourceTree = "<group>"; };
+		BF6D5AD3244F919BB321BCCF /* Pods_Dominos.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Dominos.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D22AC7BC2A09BE5A00C0659D /* Dominos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dominos.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D22AC7BF2A09BE5A00C0659D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D22AC7C12A09BE5A00C0659D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -34,6 +39,7 @@
 		D22AC7E12A0A897500C0659D /* Montserrat-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Black.ttf"; sourceTree = "<group>"; };
 		D22AC7EB2A0AA4CA00C0659D /* DashboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewController.swift; sourceTree = "<group>"; };
 		D22AC7ED2A0AA55200C0659D /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
+		D22AC7F02A0AE3B900C0659D /* FrameComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameComponent.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,17 +47,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C0109642AF68DF8CD484989 /* Pods_Dominos.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		33051856B2DEB216D6C9F95D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BF6D5AD3244F919BB321BCCF /* Pods_Dominos.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BE37BBC1167161AD8BF5609D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0961286478E3BD3CD06754CA /* Pods-Dominos.debug.xcconfig */,
+				3E214B3115766B13E18D1DA1 /* Pods-Dominos.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		D22AC7B32A09BE5A00C0659D = {
 			isa = PBXGroup;
 			children = (
 				D22AC7BE2A09BE5A00C0659D /* Dominos */,
 				D22AC7BD2A09BE5A00C0659D /* Products */,
+				BE37BBC1167161AD8BF5609D /* Pods */,
+				33051856B2DEB216D6C9F95D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -66,12 +92,14 @@
 		D22AC7BE2A09BE5A00C0659D /* Dominos */ = {
 			isa = PBXGroup;
 			children = (
+				D22AC7C12A09BE5A00C0659D /* SceneDelegate.swift */,
+				D22AC7BF2A09BE5A00C0659D /* AppDelegate.swift */,
+				D22AC7EF2A0AC7BC00C0659D /* components */,
 				D22AC7DF2A09E23300C0659D /* Assets */,
 				D22AC7DA2A09C92600C0659D /* Utils */,
 				D22AC7D42A09C07A00C0659D /* Login */,
 				D22AC7E72A0AA45D00C0659D /* Dashboard */,
-				D22AC7BF2A09BE5A00C0659D /* AppDelegate.swift */,
-				D22AC7C12A09BE5A00C0659D /* SceneDelegate.swift */,
+				D22AC7C32A09BE5A00C0659D /* ViewController.swift */,
 				D22AC7C82A09BE5B00C0659D /* Assets.xcassets */,
 				D22AC7CA2A09BE5B00C0659D /* LaunchScreen.storyboard */,
 				D22AC7CD2A09BE5B00C0659D /* Info.plist */,
@@ -92,7 +120,6 @@
 		D22AC7D52A09C08800C0659D /* View */ = {
 			isa = PBXGroup;
 			children = (
-				D22AC7C32A09BE5A00C0659D /* ViewController.swift */,
 				D22AC7D82A09C1C100C0659D /* LoginView.swift */,
 			);
 			path = View;
@@ -170,6 +197,14 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
+		D22AC7EF2A0AC7BC00C0659D /* components */ = {
+			isa = PBXGroup;
+			children = (
+				D22AC7F02A0AE3B900C0659D /* FrameComponent.swift */,
+			);
+			path = components;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -177,9 +212,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D22AC7D02A09BE5B00C0659D /* Build configuration list for PBXNativeTarget "Dominos" */;
 			buildPhases = (
+				0CB1F31D939B9EE20326A394 /* [CP] Check Pods Manifest.lock */,
 				D22AC7B82A09BE5A00C0659D /* Sources */,
 				D22AC7B92A09BE5A00C0659D /* Frameworks */,
 				D22AC7BA2A09BE5A00C0659D /* Resources */,
+				DFB0D7B546F7573618310609 /* [CP] Copy Pods Resources */,
+				FF08F89CA0AF752763230F62 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -237,6 +275,65 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0CB1F31D939B9EE20326A394 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Dominos-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DFB0D7B546F7573618310609 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Dominos/Pods-Dominos-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Dominos/Pods-Dominos-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Dominos/Pods-Dominos-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FF08F89CA0AF752763230F62 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Dominos/Pods-Dominos-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Dominos/Pods-Dominos-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Dominos/Pods-Dominos-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		D22AC7B82A09BE5A00C0659D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -247,6 +344,7 @@
 				D22AC7C02A09BE5A00C0659D /* AppDelegate.swift in Sources */,
 				D22AC7EE2A0AA55200C0659D /* DashboardView.swift in Sources */,
 				D22AC7D92A09C1C100C0659D /* LoginView.swift in Sources */,
+				D22AC7F12A0AE3B900C0659D /* FrameComponent.swift in Sources */,
 				D22AC7C22A09BE5A00C0659D /* SceneDelegate.swift in Sources */,
 				D22AC7DC2A09C94300C0659D /* HexadecimalColorUtil.swift in Sources */,
 			);
@@ -382,6 +480,7 @@
 		};
 		D22AC7D12A09BE5B00C0659D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0961286478E3BD3CD06754CA /* Pods-Dominos.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -394,6 +493,7 @@
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -409,6 +509,7 @@
 		};
 		D22AC7D22A09BE5B00C0659D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3E214B3115766B13E18D1DA1 /* Pods-Dominos.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -421,6 +522,7 @@
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
