@@ -70,7 +70,7 @@ class FrameComponent: UIView {
             logoImage.leadingAnchor.constraint(equalTo: leadingAnchor),
             logoImage.trailingAnchor.constraint(equalTo: trailingAnchor),
             logoImage.heightAnchor.constraint(equalToConstant: 100),
-            logoImage.widthAnchor.constraint(equalToConstant: 172),
+            logoImage.widthAnchor.constraint(equalToConstant: 185),
             
             addButton.trailingAnchor.constraint(equalTo: logoImage.trailingAnchor, constant: -7),
             addButton.topAnchor.constraint(equalTo: logoImage.bottomAnchor, constant: -25),

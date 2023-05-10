@@ -222,6 +222,7 @@ class DashboardView: UIView {
 
             framePizza2.topAnchor.constraint(equalTo: infoLabel.bottomAnchor, constant: 25),
             framePizza2.trailingAnchor.constraint(equalTo: trailingAnchor, constant: -margin),
+            framePizza2.heightAnchor.constraint(equalToConstant: 120),
 
             framePizza3.topAnchor.constraint(equalTo: framePizza1.bottomAnchor, constant: 10),
             framePizza3.leadingAnchor.constraint(equalTo: leadingAnchor, constant: margin),
@@ -229,6 +230,7 @@ class DashboardView: UIView {
 
             framePizza4.topAnchor.constraint(equalTo: framePizza1.bottomAnchor, constant: 10),
             framePizza4.trailingAnchor.constraint(equalTo: trailingAnchor, constant: -margin),
+            framePizza4.heightAnchor.constraint(equalToConstant: 120),
         ])
     }
     

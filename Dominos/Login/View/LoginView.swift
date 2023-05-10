@@ -79,10 +79,8 @@ class LoginVIew: UIView {
         button.setTitle("Entrar", for: .normal)
         button.setTitleColor(.white, for: .normal)
         button.titleLabel?.font = UIFont(name: "arial-black", size: 18)
-        
         button.layer.cornerRadius = 20
         button.layer.masksToBounds = true
-        
         return button
     }()
     
@@ -114,6 +112,12 @@ class LoginVIew: UIView {
     
     override init(frame: CGRect) {
         super.init(frame: frame)
+        passTextField.delegate = self
+        mailTextField.delegate = self
+        
+        let tapGesture = UITapGestureRecognizer(target: self, action: #selector(textFieldShouldReturn))
+        addGestureRecognizer(tapGesture)
+        
         setup()
         layout()
     }
@@ -176,5 +180,22 @@ extension LoginVIew {
             forgoutPassLabel.topAnchor.constraint(equalTo: buttonRegister.bottomAnchor, constant: 16),
             forgoutPassLabel.centerXAnchor.constraint(equalTo: centerXAnchor)
         ])
+    }
+}
+
+extension LoginVIew: UITextFieldDelegate{
+    
+    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+        mailTextField.endEditing(true)
+        passTextField.endEditing(true)
+        return true
+    }
+    
+    func textFieldShouldEndEditing(_ textField: UITextField) -> Bool {
+        return true
+    }
+    
+    func textFieldDidEndEditing(_ textField: UITextField) {
+        
     }
 }
