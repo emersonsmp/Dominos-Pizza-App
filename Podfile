@@ -8,6 +8,7 @@ target 'Dominos' do
 pod 'FSPagerView'
 pod 'GoogleMaps'
 pod 'GooglePlaces'
+pod 'DropDown'
 
   # Pods for Dominos
 

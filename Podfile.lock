@@ -1,4 +1,5 @@
 PODS:
+  - DropDown (2.3.13)
   - FSPagerView (0.8.3)
   - GoogleMaps (7.4.0):
     - GoogleMaps/Maps (= 7.4.0)
@@ -8,21 +9,24 @@ PODS:
   - GooglePlaces (7.4.0)
 
 DEPENDENCIES:
+  - DropDown
   - FSPagerView
   - GoogleMaps
   - GooglePlaces
 
 SPEC REPOS:
   trunk:
+    - DropDown
     - FSPagerView
     - GoogleMaps
     - GooglePlaces
 
 SPEC CHECKSUMS:
+  DropDown: 8a2116376c1981888557f72ec2ffc9a5e0e456ec
   FSPagerView: 670405b2f18e2a87fa37f20b00de783e562c25a8
   GoogleMaps: 032f676450ba0779bd8ce16840690915f84e57ac
   GooglePlaces: 544e908d94860bf6f8fc1865b80d2c7eb6b5f937
 
-PODFILE CHECKSUM: e21debd2ecf7ef7a0c0a88c99d699367e55f2984
+PODFILE CHECKSUM: d15252eed2b2fb82fed4d6aa9ad4cb9cc9f6bfe8
 
 COCOAPODS: 1.12.0

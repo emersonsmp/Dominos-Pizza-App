@@ -32,102 +32,134 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		29C03EAF5C27DC851118AEC88ABEC151 /* FSPagerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE345924B939830C596CAC486E5B65DD /* FSPagerView.swift */; };
+		29C03EAF5C27DC851118AEC88ABEC151 /* FSPagerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 806E223C8D6132C317FAF7D124D3294C /* FSPagerView.swift */; };
 		2E4A914423BA1B263C96C3BBC43E2245 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */; };
-		40987E046BAD603A58CA00B9A7648588 /* FSPageViewLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 484C49AF17C17224E18E3FAD491C766F /* FSPageViewLayout.swift */; };
-		488A767CF7494D169BFB886EDC470F5D /* FSPageViewTransformer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04427362F7BB8BF855ADE41F098E13E4 /* FSPageViewTransformer.swift */; };
-		69C7244F5E0D41CF59E5ADC8952F8D0D /* FSPagerViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B414004B341934D387040AA0D125613A /* FSPagerViewCell.swift */; };
+		34D86F4481D9328BF45B637B906B3122 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
+		40987E046BAD603A58CA00B9A7648588 /* FSPageViewLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97B0F07DA0E674E969B9ACF72F60528D /* FSPageViewLayout.swift */; };
+		488A767CF7494D169BFB886EDC470F5D /* FSPageViewTransformer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FF01389BE7294E5ECACFEB34840486E /* FSPageViewTransformer.swift */; };
+		515E22E4255B6073C1897BDDB091A2B8 /* DropDown+Appearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = C89D9B278701CE0BE57FAC0A52015A16 /* DropDown+Appearance.swift */; };
+		68E1653C561E14BBEAC9CF4873570D58 /* DropDownCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CFBF92F574D25905D539662BA574F4A7 /* DropDownCell.xib */; };
+		69C21ECBF51BF1307E1325D80BC4DA93 /* Pods-Dominos-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EC654B360897E8CAF12FCD8E46CDF72A /* Pods-Dominos-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		69C7244F5E0D41CF59E5ADC8952F8D0D /* FSPagerViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07C3D2642E9C63226818E17A08C01B76 /* FSPagerViewCell.swift */; };
 		7399F0854271981516AA79727A0A06C8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
-		772E93F0EF448235827AA4B99E1FEA2A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
-		90BA57E36FCD699E0FCC365DAD548C2A /* Pods-Dominos-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EC654B360897E8CAF12FCD8E46CDF72A /* Pods-Dominos-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		91611428D06F5E61CECF70A53E6DA6C6 /* FSPagerViewObjcCompat.h in Headers */ = {isa = PBXBuildFile; fileRef = A308E3A47FF4B6E08D25482B6EBF9CB5 /* FSPagerViewObjcCompat.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B6CC7619614561E8BBE85E9231DFE9DE /* Pods-Dominos-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A327742A02661A124EEA004FB6CDA9C /* Pods-Dominos-dummy.m */; };
-		C85C11573FFE927A84AD0C8BE456AD81 /* FSPagerViewLayoutAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD9A79551AF32BC5214999792BC58A15 /* FSPagerViewLayoutAttributes.swift */; };
-		CE2C6FD104092EA3F2F0A357C72460A8 /* FSPagerView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B6D08EBD68F1A9F4070B968E6D6114D3 /* FSPagerView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EA89DFEFE15FAD82868C74E94F6F1B75 /* FSPagerViewObjcCompat.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EA493C119339D65B3236369CE593DA8 /* FSPagerViewObjcCompat.m */; };
-		ECA11CD4E20DFCA3327CB006B10A3DB8 /* FSPagerCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 728D57149DB50EE03F7E983E7523CD4B /* FSPagerCollectionView.swift */; };
-		F2562CFCEC42E2989BADC7E823F2C9C3 /* FSPageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2279B0731A2D97A928F60A367E3D5F74 /* FSPageControl.swift */; };
-		F6702D89104E55C112FE16943BE7D41A /* FSPagerView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F7A149C4131C6AD6943D591224DEE49F /* FSPagerView-dummy.m */; };
+		74012B832FAF67F8D62A2B27CDAFE8B5 /* DPDConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6211637E77C48C7B6A21221145727319 /* DPDConstants.swift */; };
+		84459C4824533C9C4FD12AFC941F3CE1 /* DropDown.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB9655C01A5BDEEA460C5571A154F8D2 /* DropDown.swift */; };
+		85248C8290D95903BE1E0C24FCEC3032 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
+		89A72A55273CE358DC4E7600F785C37B /* DPDKeyboardListener.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECE895DFFD2AD5CD354458D9AE3362AE /* DPDKeyboardListener.swift */; };
+		907338727C09F65DB75AA7AB9E10C3B4 /* DropDown-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CC7713F90A8C19841DFC1D09288BC250 /* DropDown-dummy.m */; };
+		91611428D06F5E61CECF70A53E6DA6C6 /* FSPagerViewObjcCompat.h in Headers */ = {isa = PBXBuildFile; fileRef = 9AC441A332C80ACCBFFB9F73BA3E00FA /* FSPagerViewObjcCompat.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B73E510E851686F8184E26986A470458 /* DPDUIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B08C22BCE3E52442E21403E101E44ED /* DPDUIView+Extension.swift */; };
+		BDC10974A8641F01C5665C61EA37A153 /* DropDownCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92C7FF87A77E0C6324D9694B582BB55C /* DropDownCell.swift */; };
+		C85C11573FFE927A84AD0C8BE456AD81 /* FSPagerViewLayoutAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = D64E220DBE83721D478C404A6C849870 /* FSPagerViewLayoutAttributes.swift */; };
+		CE2C6FD104092EA3F2F0A357C72460A8 /* FSPagerView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3AE50B64464F0F92E24AECFB11BCA535 /* FSPagerView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E0A8C46EEE733B55971B1CC5ED65C9AA /* DropDown-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 23F061166B7FD794B84734BF84DF27B8 /* DropDown-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E1E67AA36AC065346F3F59ECA5BF5ABF /* Pods-Dominos-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A327742A02661A124EEA004FB6CDA9C /* Pods-Dominos-dummy.m */; };
+		EA89DFEFE15FAD82868C74E94F6F1B75 /* FSPagerViewObjcCompat.m in Sources */ = {isa = PBXBuildFile; fileRef = BDB0D4B76C0CF73F0022DA679029F3DF /* FSPagerViewObjcCompat.m */; };
+		ECA11CD4E20DFCA3327CB006B10A3DB8 /* FSPagerCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F5B971D6168F93C6D752253F66C3081 /* FSPagerCollectionView.swift */; };
+		F2562CFCEC42E2989BADC7E823F2C9C3 /* FSPageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BB7102AC63F46F258F07D50C5D9AA72 /* FSPageControl.swift */; };
+		F6702D89104E55C112FE16943BE7D41A /* FSPagerView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DA407B62F4C3202895BB0A17D5FE909 /* FSPagerView-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		1BBABBF157EE90EF1570A7AF1D6C9F62 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = D4F8239FB329387A8476B964D92D92E7;
-			remoteInfo = FSPagerView;
-		};
-		256012CFA51242AB9C8799D8A45690BC /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = E5B4BBC6DD552AC8943C7E22772FC1D3;
-			remoteInfo = GoogleMaps;
-		};
-		B82607E59E2A4C00531DDDA35404C3A0 /* PBXContainerItemProxy */ = {
+		0D7A5CBCEDFB08A8AD00C276DDFD6B5C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 0C1885900810601510E0C632060FAF26;
 			remoteInfo = GooglePlaces;
 		};
+		3BAE50E02EC46318DD256AAFF3398597 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D4F8239FB329387A8476B964D92D92E7;
+			remoteInfo = FSPagerView;
+		};
+		5349BB8A0A76C1E5F282111269BAE991 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E5B4BBC6DD552AC8943C7E22772FC1D3;
+			remoteInfo = GoogleMaps;
+		};
+		96FB93B8202F915EB9360B87CBF037D7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E9F9401E9C74C0C393164FD8D86D0068;
+			remoteInfo = DropDown;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		04427362F7BB8BF855ADE41F098E13E4 /* FSPageViewTransformer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FSPageViewTransformer.swift; path = Sources/FSPageViewTransformer.swift; sourceTree = "<group>"; };
-		0A6FBC783765BBBCAF885BB7DB721A02 /* GoogleMaps.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = GoogleMaps.bundle; path = "Maps/Frameworks/GoogleMaps.xcframework/ios-arm64_x86_64-simulator/GoogleMaps.framework/Resources/GoogleMaps.bundle"; sourceTree = "<group>"; };
+		07C3D2642E9C63226818E17A08C01B76 /* FSPagerViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FSPagerViewCell.swift; path = Sources/FSPagerViewCell.swift; sourceTree = "<group>"; };
+		091A62CB2125C253759C9D1F319619F7 /* FSPagerView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FSPagerView.modulemap; sourceTree = "<group>"; };
 		0F47FB5E28EE8C8342B1776D813D1A4C /* FSPagerView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FSPagerView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		2258CE0A63072E1CE07D3E558FFE6D10 /* GoogleMaps-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "GoogleMaps-xcframeworks.sh"; sourceTree = "<group>"; };
-		2279B0731A2D97A928F60A367E3D5F74 /* FSPageControl.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FSPageControl.swift; path = Sources/FSPageControl.swift; sourceTree = "<group>"; };
-		28478EC5CD4AD90A1BECD4F79BA484D7 /* FSPagerView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FSPagerView.modulemap; sourceTree = "<group>"; };
-		484C49AF17C17224E18E3FAD491C766F /* FSPageViewLayout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FSPageViewLayout.swift; path = Sources/FSPageViewLayout.swift; sourceTree = "<group>"; };
-		4EDF0547B1D358FB909B5613624E869A /* GoogleMaps.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.xcframework; name = GoogleMaps.xcframework; path = Maps/Frameworks/GoogleMaps.xcframework; sourceTree = "<group>"; };
-		5055E988A451CF92C71B0E65E7611F25 /* GoogleMaps.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GoogleMaps.debug.xcconfig; sourceTree = "<group>"; };
-		521AFC92B69B648FA5F81142E37C8793 /* FSPagerView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FSPagerView-Info.plist"; sourceTree = "<group>"; };
+		0F5B971D6168F93C6D752253F66C3081 /* FSPagerCollectionView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FSPagerCollectionView.swift; path = Sources/FSPagerCollectionView.swift; sourceTree = "<group>"; };
+		135A8FEA9439A59CE0B67550DE6E9FB3 /* DropDown-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "DropDown-Info.plist"; sourceTree = "<group>"; };
+		1E867394FA15CAC7364DF4E601CE39CB /* GoogleMaps.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.xcframework; name = GoogleMaps.xcframework; path = Maps/Frameworks/GoogleMaps.xcframework; sourceTree = "<group>"; };
+		23F061166B7FD794B84734BF84DF27B8 /* DropDown-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DropDown-umbrella.h"; sourceTree = "<group>"; };
+		2B6B037DEED4228623B01C1339F2999C /* DropDown-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DropDown-prefix.pch"; sourceTree = "<group>"; };
+		3670B9779251E0306CD97CBB5F775454 /* GoogleMaps.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GoogleMaps.debug.xcconfig; sourceTree = "<group>"; };
+		3AE50B64464F0F92E24AECFB11BCA535 /* FSPagerView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FSPagerView-umbrella.h"; sourceTree = "<group>"; };
 		57F87D5174AEA721B069A88D7EC469B2 /* Pods-Dominos.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Dominos.debug.xcconfig"; sourceTree = "<group>"; };
-		5AB42B9EC133D2FAF7A5D9E9CAF4D209 /* GooglePlaces.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = GooglePlaces.bundle; path = "Frameworks/GooglePlaces.xcframework/ios-arm64/GooglePlaces.framework/Resources/GooglePlaces.bundle"; sourceTree = "<group>"; };
-		5EA493C119339D65B3236369CE593DA8 /* FSPagerViewObjcCompat.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FSPagerViewObjcCompat.m; path = Sources/FSPagerViewObjcCompat.m; sourceTree = "<group>"; };
-		6486FA710D2DCDA8BB71AA9D611F713B /* Pods-Dominos */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-Dominos"; path = Pods_Dominos.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		709DF3CA7FA3A3975D426C4DE4C8400C /* FSPagerView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FSPagerView.release.xcconfig; sourceTree = "<group>"; };
-		70D926B2C11310FAE9C5C1087DE5E4D1 /* GooglePlaces.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GooglePlaces.debug.xcconfig; sourceTree = "<group>"; };
+		6211637E77C48C7B6A21221145727319 /* DPDConstants.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DPDConstants.swift; path = DropDown/helpers/DPDConstants.swift; sourceTree = "<group>"; };
+		6486FA710D2DCDA8BB71AA9D611F713B /* Pods_Dominos.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Dominos.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6730F5742C46F723A500EE21EDDBBBE0 /* DropDown.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DropDown.modulemap; sourceTree = "<group>"; };
+		6A42E22E1B10C980FD973531FADEFFE3 /* GooglePlaces.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = GooglePlaces.bundle; path = "Frameworks/GooglePlaces.xcframework/ios-arm64/GooglePlaces.framework/Resources/GooglePlaces.bundle"; sourceTree = "<group>"; };
+		6B08C22BCE3E52442E21403E101E44ED /* DPDUIView+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DPDUIView+Extension.swift"; path = "DropDown/helpers/DPDUIView+Extension.swift"; sourceTree = "<group>"; };
+		6DA407B62F4C3202895BB0A17D5FE909 /* FSPagerView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FSPagerView-dummy.m"; sourceTree = "<group>"; };
+		6DD1F802EF7DFBD30D41540B7FC47958 /* GooglePlaces.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.xcframework; name = GooglePlaces.xcframework; path = Frameworks/GooglePlaces.xcframework; sourceTree = "<group>"; };
+		6F57A25771819093BCEEE6C5524E41C5 /* DropDown.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DropDown.debug.xcconfig; sourceTree = "<group>"; };
 		70E3047B73EEADBE6CCEED0457C21F73 /* Pods-Dominos-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Dominos-Info.plist"; sourceTree = "<group>"; };
-		728D57149DB50EE03F7E983E7523CD4B /* FSPagerCollectionView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FSPagerCollectionView.swift; path = Sources/FSPagerCollectionView.swift; sourceTree = "<group>"; };
+		7AEECB7E6B9D4F161A6F1876DDD34837 /* FSPagerView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FSPagerView-Info.plist"; sourceTree = "<group>"; };
+		7BB7102AC63F46F258F07D50C5D9AA72 /* FSPageControl.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FSPageControl.swift; path = Sources/FSPageControl.swift; sourceTree = "<group>"; };
 		7F548432D4C10B83A650FA811ECC5EC0 /* Pods-Dominos-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Dominos-frameworks.sh"; sourceTree = "<group>"; };
+		7FF01389BE7294E5ECACFEB34840486E /* FSPageViewTransformer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FSPageViewTransformer.swift; path = Sources/FSPageViewTransformer.swift; sourceTree = "<group>"; };
+		806E223C8D6132C317FAF7D124D3294C /* FSPagerView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FSPagerView.swift; path = Sources/FSPagerView.swift; sourceTree = "<group>"; };
+		820CA9891B2D4AC1EF3C9C87D9C68378 /* DropDown.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DropDown.release.xcconfig; sourceTree = "<group>"; };
 		87148952741922378E0DC639D419FF23 /* Pods-Dominos.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Dominos.release.xcconfig"; sourceTree = "<group>"; };
-		8E1F2C2B4F72354E049407DE44BA543F /* GooglePlaces.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = GooglePlaces.bundle; path = "Frameworks/GooglePlaces.xcframework/ios-arm64_x86_64-simulator/GooglePlaces.framework/Resources/GooglePlaces.bundle"; sourceTree = "<group>"; };
+		90F1005D05B2DBAC80FF4445AF3BD0C6 /* GooglePlaces.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = GooglePlaces.bundle; path = "Frameworks/GooglePlaces.xcframework/ios-arm64_x86_64-simulator/GooglePlaces.framework/Resources/GooglePlaces.bundle"; sourceTree = "<group>"; };
 		9103B3ACBB056B76C28239F2ED27FA91 /* Pods-Dominos-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Dominos-resources.sh"; sourceTree = "<group>"; };
-		930C88BD14FE5FBF3B4363E1C60F2640 /* FSPagerView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FSPagerView-prefix.pch"; sourceTree = "<group>"; };
+		92C7FF87A77E0C6324D9694B582BB55C /* DropDownCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DropDownCell.swift; path = DropDown/src/DropDownCell.swift; sourceTree = "<group>"; };
+		97B0F07DA0E674E969B9ACF72F60528D /* FSPageViewLayout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FSPageViewLayout.swift; path = Sources/FSPageViewLayout.swift; sourceTree = "<group>"; };
 		9A327742A02661A124EEA004FB6CDA9C /* Pods-Dominos-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Dominos-dummy.m"; sourceTree = "<group>"; };
-		9B3268588E6792CCD3645C7349B5D916 /* GooglePlaces.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.xcframework; name = GooglePlaces.xcframework; path = Frameworks/GooglePlaces.xcframework; sourceTree = "<group>"; };
+		9AC441A332C80ACCBFFB9F73BA3E00FA /* FSPagerViewObjcCompat.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FSPagerViewObjcCompat.h; path = Sources/FSPagerViewObjcCompat.h; sourceTree = "<group>"; };
+		9B6725B782188F18CB76A740433F14E4 /* DropDown.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DropDown.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9DA2615D27881F6C879396D686C44D6F /* Pods-Dominos.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Dominos.modulemap"; sourceTree = "<group>"; };
-		A308E3A47FF4B6E08D25482B6EBF9CB5 /* FSPagerViewObjcCompat.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FSPagerViewObjcCompat.h; path = Sources/FSPagerViewObjcCompat.h; sourceTree = "<group>"; };
-		B3FBCD59FB37CBA5E353D151388937A3 /* GooglePlaces.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GooglePlaces.release.xcconfig; sourceTree = "<group>"; };
-		B40B74CC4122FA0F9841BD1957A4C22C /* GoogleMaps.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GoogleMaps.release.xcconfig; sourceTree = "<group>"; };
-		B414004B341934D387040AA0D125613A /* FSPagerViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FSPagerViewCell.swift; path = Sources/FSPagerViewCell.swift; sourceTree = "<group>"; };
-		B6D08EBD68F1A9F4070B968E6D6114D3 /* FSPagerView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FSPagerView-umbrella.h"; sourceTree = "<group>"; };
-		BC041366B4EECD9B56F202B8D62F7D21 /* GooglePlaces-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "GooglePlaces-xcframeworks.sh"; sourceTree = "<group>"; };
+		B101D9C7B6087133C73D9A00440DAC0F /* GooglePlaces.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GooglePlaces.debug.xcconfig; sourceTree = "<group>"; };
+		B214F691F5140F783D339444C2FE6375 /* FSPagerView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FSPagerView.debug.xcconfig; sourceTree = "<group>"; };
+		B4F48DFD1F3482CB29A3E3CAE10C73F0 /* GooglePlaces-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "GooglePlaces-xcframeworks.sh"; sourceTree = "<group>"; };
+		BDB0D4B76C0CF73F0022DA679029F3DF /* FSPagerViewObjcCompat.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FSPagerViewObjcCompat.m; path = Sources/FSPagerViewObjcCompat.m; sourceTree = "<group>"; };
+		C89D9B278701CE0BE57FAC0A52015A16 /* DropDown+Appearance.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DropDown+Appearance.swift"; path = "DropDown/src/DropDown+Appearance.swift"; sourceTree = "<group>"; };
 		C91CB00BA0397936B620EB2A0E505E50 /* Pods-Dominos-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Dominos-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C9F9C98699ABBBD58FD1384CFC5D898A /* FSPagerView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FSPagerView-prefix.pch"; sourceTree = "<group>"; };
+		CC7713F90A8C19841DFC1D09288BC250 /* DropDown-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DropDown-dummy.m"; sourceTree = "<group>"; };
+		CFBF92F574D25905D539662BA574F4A7 /* DropDownCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = DropDownCell.xib; path = DropDown/resources/DropDownCell.xib; sourceTree = "<group>"; };
 		D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		DC35AC3EB35961AB7E1D1C959487B224 /* GoogleMapsBase.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.xcframework; name = GoogleMapsBase.xcframework; path = Base/Frameworks/GoogleMapsBase.xcframework; sourceTree = "<group>"; };
-		DD64D97E339AD698E7F3E75679F84CF4 /* GoogleMapsCore.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.xcframework; name = GoogleMapsCore.xcframework; path = Maps/Frameworks/GoogleMapsCore.xcframework; sourceTree = "<group>"; };
-		DE345924B939830C596CAC486E5B65DD /* FSPagerView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FSPagerView.swift; path = Sources/FSPagerView.swift; sourceTree = "<group>"; };
-		DFA86751F88AE952837ABDEA0EBB5B26 /* FSPagerView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FSPagerView.debug.xcconfig; sourceTree = "<group>"; };
+		D64E220DBE83721D478C404A6C849870 /* FSPagerViewLayoutAttributes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FSPagerViewLayoutAttributes.swift; path = Sources/FSPagerViewLayoutAttributes.swift; sourceTree = "<group>"; };
+		D85B343EB8ED434A2E8EE847AEA444B5 /* GoogleMaps-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "GoogleMaps-xcframeworks.sh"; sourceTree = "<group>"; };
+		D9363B24656CC76F934A58F9A07E43D2 /* GooglePlaces.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GooglePlaces.release.xcconfig; sourceTree = "<group>"; };
+		DE14C6AE42856B0829BFE1FA69119645 /* GoogleMaps.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GoogleMaps.release.xcconfig; sourceTree = "<group>"; };
+		E629924C298ABB730555E8BEEC309F0B /* GoogleMaps.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = GoogleMaps.bundle; path = "Maps/Frameworks/GoogleMaps.xcframework/ios-arm64_x86_64-simulator/GoogleMaps.framework/Resources/GoogleMaps.bundle"; sourceTree = "<group>"; };
+		E683B2801204B7D69B5E7D3033648572 /* FSPagerView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FSPagerView.release.xcconfig; sourceTree = "<group>"; };
 		EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		EC654B360897E8CAF12FCD8E46CDF72A /* Pods-Dominos-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Dominos-umbrella.h"; sourceTree = "<group>"; };
-		F7A149C4131C6AD6943D591224DEE49F /* FSPagerView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FSPagerView-dummy.m"; sourceTree = "<group>"; };
+		ECE895DFFD2AD5CD354458D9AE3362AE /* DPDKeyboardListener.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DPDKeyboardListener.swift; path = DropDown/helpers/DPDKeyboardListener.swift; sourceTree = "<group>"; };
+		F038525432F2E4214CD50E78EFC92D3C /* GoogleMapsCore.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.xcframework; name = GoogleMapsCore.xcframework; path = Maps/Frameworks/GoogleMapsCore.xcframework; sourceTree = "<group>"; };
+		F3501E4278277D06645ABF9F52417E86 /* GoogleMapsBase.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.xcframework; name = GoogleMapsBase.xcframework; path = Base/Frameworks/GoogleMapsBase.xcframework; sourceTree = "<group>"; };
+		F91CF62C4B2FBB169C6E20522C53EAF7 /* GoogleMaps.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = GoogleMaps.bundle; path = "Maps/Frameworks/GoogleMaps.xcframework/ios-arm64/GoogleMaps.framework/Resources/GoogleMaps.bundle"; sourceTree = "<group>"; };
 		F970E5D608BC6DD2A41BA6EED697C3CE /* Pods-Dominos-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Dominos-acknowledgements.plist"; sourceTree = "<group>"; };
-		FD9A79551AF32BC5214999792BC58A15 /* FSPagerViewLayoutAttributes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FSPagerViewLayoutAttributes.swift; path = Sources/FSPagerViewLayoutAttributes.swift; sourceTree = "<group>"; };
-		FF75BAB206A5177DB6CCB03586DDD285 /* GoogleMaps.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = GoogleMaps.bundle; path = "Maps/Frameworks/GoogleMaps.xcframework/ios-arm64/GoogleMaps.framework/Resources/GoogleMaps.bundle"; sourceTree = "<group>"; };
+		FB9655C01A5BDEEA460C5571A154F8D2 /* DropDown.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DropDown.swift; path = DropDown/src/DropDown.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		6E7EC6B347C2DB70D5CCE124BFF1C031 /* Frameworks */ = {
+		808BE4E171BD75B6477EC2B77490C2B1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				772E93F0EF448235827AA4B99E1FEA2A /* Foundation.framework in Frameworks */,
+				34D86F4481D9328BF45B637B906B3122 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -140,38 +172,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F1CF7DAA6F2E4F6D58C798AA587E4BCA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85248C8290D95903BE1E0C24FCEC3032 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		07758300590B4D46B89856AE0EA465E4 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				FF75BAB206A5177DB6CCB03586DDD285 /* GoogleMaps.bundle */,
-				0A6FBC783765BBBCAF885BB7DB721A02 /* GoogleMaps.bundle */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-		};
-		0E0911A2D30896390FA2B340818DB8B2 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				5AB42B9EC133D2FAF7A5D9E9CAF4D209 /* GooglePlaces.bundle */,
-				8E1F2C2B4F72354E049407DE44BA543F /* GooglePlaces.bundle */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-		};
-		15FE7BC23403CFE0165493CB4197C830 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				2258CE0A63072E1CE07D3E558FFE6D10 /* GoogleMaps-xcframeworks.sh */,
-				5055E988A451CF92C71B0E65E7611F25 /* GoogleMaps.debug.xcconfig */,
-				B40B74CC4122FA0F9841BD1957A4C22C /* GoogleMaps.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/GoogleMaps";
-			sourceTree = "<group>";
-		};
 		1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -180,41 +191,65 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		1D46536BEE2BDA967BAA0D7DC0E2A11E /* Frameworks */ = {
+		34721AE219B871DE352FCA983EE9494D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				4EDF0547B1D358FB909B5613624E869A /* GoogleMaps.xcframework */,
-				DD64D97E339AD698E7F3E75679F84CF4 /* GoogleMapsCore.xcframework */,
+				1E867394FA15CAC7364DF4E601CE39CB /* GoogleMaps.xcframework */,
+				F038525432F2E4214CD50E78EFC92D3C /* GoogleMapsCore.xcframework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		20604F36034C670FBBC9A68A2F8E0741 /* Frameworks */ = {
+		425F4BE706216B81DC143FAFD8605F14 /* FSPagerView */ = {
 			isa = PBXGroup;
 			children = (
-				9B3268588E6792CCD3645C7349B5D916 /* GooglePlaces.xcframework */,
+				7BB7102AC63F46F258F07D50C5D9AA72 /* FSPageControl.swift */,
+				0F5B971D6168F93C6D752253F66C3081 /* FSPagerCollectionView.swift */,
+				806E223C8D6132C317FAF7D124D3294C /* FSPagerView.swift */,
+				07C3D2642E9C63226818E17A08C01B76 /* FSPagerViewCell.swift */,
+				D64E220DBE83721D478C404A6C849870 /* FSPagerViewLayoutAttributes.swift */,
+				9AC441A332C80ACCBFFB9F73BA3E00FA /* FSPagerViewObjcCompat.h */,
+				BDB0D4B76C0CF73F0022DA679029F3DF /* FSPagerViewObjcCompat.m */,
+				97B0F07DA0E674E969B9ACF72F60528D /* FSPageViewLayout.swift */,
+				7FF01389BE7294E5ECACFEB34840486E /* FSPageViewTransformer.swift */,
+				4D470576991FC1D7DD692935BB87709E /* Support Files */,
 			);
-			name = Frameworks;
+			path = FSPagerView;
 			sourceTree = "<group>";
 		};
-		4B3CEF55DB001957FF01250870D86751 /* Products */ = {
+		4AFCDB8CCEA8DB7876F8E3B9FAAFFA49 /* Maps */ = {
 			isa = PBXGroup;
 			children = (
-				0F47FB5E28EE8C8342B1776D813D1A4C /* FSPagerView.framework */,
-				6486FA710D2DCDA8BB71AA9D611F713B /* Pods-Dominos */,
+				34721AE219B871DE352FCA983EE9494D /* Frameworks */,
+				B0CC301B5336E3C23FD2DC5005612D8C /* Resources */,
 			);
-			name = Products;
+			name = Maps;
 			sourceTree = "<group>";
 		};
-		5825F3C3F672384D9DD520DCF8159CCB /* Support Files */ = {
+		4D470576991FC1D7DD692935BB87709E /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				BC041366B4EECD9B56F202B8D62F7D21 /* GooglePlaces-xcframeworks.sh */,
-				70D926B2C11310FAE9C5C1087DE5E4D1 /* GooglePlaces.debug.xcconfig */,
-				B3FBCD59FB37CBA5E353D151388937A3 /* GooglePlaces.release.xcconfig */,
+				091A62CB2125C253759C9D1F319619F7 /* FSPagerView.modulemap */,
+				6DA407B62F4C3202895BB0A17D5FE909 /* FSPagerView-dummy.m */,
+				7AEECB7E6B9D4F161A6F1876DDD34837 /* FSPagerView-Info.plist */,
+				C9F9C98699ABBBD58FD1384CFC5D898A /* FSPagerView-prefix.pch */,
+				3AE50B64464F0F92E24AECFB11BCA535 /* FSPagerView-umbrella.h */,
+				B214F691F5140F783D339444C2FE6375 /* FSPagerView.debug.xcconfig */,
+				E683B2801204B7D69B5E7D3033648572 /* FSPagerView.release.xcconfig */,
 			);
 			name = "Support Files";
-			path = "../Target Support Files/GooglePlaces";
+			path = "../Target Support Files/FSPagerView";
+			sourceTree = "<group>";
+		};
+		58F63DE1F5F317F43E7BB999C44D9827 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D85B343EB8ED434A2E8EE847AEA444B5 /* GoogleMaps-xcframeworks.sh */,
+				3670B9779251E0306CD97CBB5F775454 /* GoogleMaps.debug.xcconfig */,
+				DE14C6AE42856B0829BFE1FA69119645 /* GoogleMaps.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/GoogleMaps";
 			sourceTree = "<group>";
 		};
 		59DA5C1F72E1D5BABC43EACBA672C3BA /* iOS */ = {
@@ -226,66 +261,72 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		7C4BCE64AEAFFC34A32026D69D6C6E49 /* FSPagerView */ = {
+		5B8976A7974C777A22417817109F7C97 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				2279B0731A2D97A928F60A367E3D5F74 /* FSPageControl.swift */,
-				728D57149DB50EE03F7E983E7523CD4B /* FSPagerCollectionView.swift */,
-				DE345924B939830C596CAC486E5B65DD /* FSPagerView.swift */,
-				B414004B341934D387040AA0D125613A /* FSPagerViewCell.swift */,
-				FD9A79551AF32BC5214999792BC58A15 /* FSPagerViewLayoutAttributes.swift */,
-				A308E3A47FF4B6E08D25482B6EBF9CB5 /* FSPagerViewObjcCompat.h */,
-				5EA493C119339D65B3236369CE593DA8 /* FSPagerViewObjcCompat.m */,
-				484C49AF17C17224E18E3FAD491C766F /* FSPageViewLayout.swift */,
-				04427362F7BB8BF855ADE41F098E13E4 /* FSPageViewTransformer.swift */,
-				84F91C6B2E0F568F1FB70DA135F4D6B8 /* Support Files */,
+				CFBF92F574D25905D539662BA574F4A7 /* DropDownCell.xib */,
 			);
-			path = FSPagerView;
+			name = Resources;
 			sourceTree = "<group>";
 		};
-		84F91C6B2E0F568F1FB70DA135F4D6B8 /* Support Files */ = {
+		5CBB61E5BA8582D14617A33F2ADA5202 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				28478EC5CD4AD90A1BECD4F79BA484D7 /* FSPagerView.modulemap */,
-				F7A149C4131C6AD6943D591224DEE49F /* FSPagerView-dummy.m */,
-				521AFC92B69B648FA5F81142E37C8793 /* FSPagerView-Info.plist */,
-				930C88BD14FE5FBF3B4363E1C60F2640 /* FSPagerView-prefix.pch */,
-				B6D08EBD68F1A9F4070B968E6D6114D3 /* FSPagerView-umbrella.h */,
-				DFA86751F88AE952837ABDEA0EBB5B26 /* FSPagerView.debug.xcconfig */,
-				709DF3CA7FA3A3975D426C4DE4C8400C /* FSPagerView.release.xcconfig */,
+				6DD1F802EF7DFBD30D41540B7FC47958 /* GooglePlaces.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		677CBAF59377C5AE0891B29E9E733CE1 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				D8508167267F9CB9A1CF3D5FD9A9B90D /* Frameworks */,
+			);
+			name = Base;
+			sourceTree = "<group>";
+		};
+		68E7000CC66A6CCDC390400F290199B1 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6730F5742C46F723A500EE21EDDBBBE0 /* DropDown.modulemap */,
+				CC7713F90A8C19841DFC1D09288BC250 /* DropDown-dummy.m */,
+				135A8FEA9439A59CE0B67550DE6E9FB3 /* DropDown-Info.plist */,
+				2B6B037DEED4228623B01C1339F2999C /* DropDown-prefix.pch */,
+				23F061166B7FD794B84734BF84DF27B8 /* DropDown-umbrella.h */,
+				6F57A25771819093BCEEE6C5524E41C5 /* DropDown.debug.xcconfig */,
+				820CA9891B2D4AC1EF3C9C87D9C68378 /* DropDown.release.xcconfig */,
 			);
 			name = "Support Files";
-			path = "../Target Support Files/FSPagerView";
+			path = "../Target Support Files/DropDown";
 			sourceTree = "<group>";
 		};
-		87A43042FADEF82D245EC07BA3CAAE20 /* GoogleMaps */ = {
+		91FCCFB56D372A033EE22431276C07F2 /* GooglePlaces */ = {
 			isa = PBXGroup;
 			children = (
-				ED1B387518CF283B8C59CFD6DEE4416D /* Base */,
-				A9ABF29CBC628B2D61F93C8B9E556F32 /* Maps */,
-				15FE7BC23403CFE0165493CB4197C830 /* Support Files */,
-			);
-			path = GoogleMaps;
-			sourceTree = "<group>";
-		};
-		940BA5ADB2D9CA4F34D12AC0AF183D9A /* GooglePlaces */ = {
-			isa = PBXGroup;
-			children = (
-				20604F36034C670FBBC9A68A2F8E0741 /* Frameworks */,
-				0E0911A2D30896390FA2B340818DB8B2 /* Resources */,
-				5825F3C3F672384D9DD520DCF8159CCB /* Support Files */,
+				5CBB61E5BA8582D14617A33F2ADA5202 /* Frameworks */,
+				9A657214F2699AE6461C57DB686EC235 /* Resources */,
+				FC94332F9DFFC45EB5D29002090AFCD9 /* Support Files */,
 			);
 			path = GooglePlaces;
 			sourceTree = "<group>";
 		};
-		99C2255D4772E884EBADA6D70B11299F /* Pods */ = {
+		991B7AA64076D5F0BE5FBB797FC1ED87 /* GoogleMaps */ = {
 			isa = PBXGroup;
 			children = (
-				7C4BCE64AEAFFC34A32026D69D6C6E49 /* FSPagerView */,
-				87A43042FADEF82D245EC07BA3CAAE20 /* GoogleMaps */,
-				940BA5ADB2D9CA4F34D12AC0AF183D9A /* GooglePlaces */,
+				677CBAF59377C5AE0891B29E9E733CE1 /* Base */,
+				4AFCDB8CCEA8DB7876F8E3B9FAAFFA49 /* Maps */,
+				58F63DE1F5F317F43E7BB999C44D9827 /* Support Files */,
 			);
-			name = Pods;
+			path = GoogleMaps;
+			sourceTree = "<group>";
+		};
+		9A657214F2699AE6461C57DB686EC235 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				6A42E22E1B10C980FD973531FADEFFE3 /* GooglePlaces.bundle */,
+				90F1005D05B2DBAC80FF4445AF3BD0C6 /* GooglePlaces.bundle */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 		9C65CED3AB3571CE3041ABD3056F32BE /* Targets Support Files */ = {
@@ -296,13 +337,49 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		A9ABF29CBC628B2D61F93C8B9E556F32 /* Maps */ = {
+		B0CC301B5336E3C23FD2DC5005612D8C /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				1D46536BEE2BDA967BAA0D7DC0E2A11E /* Frameworks */,
-				07758300590B4D46B89856AE0EA465E4 /* Resources */,
+				F91CF62C4B2FBB169C6E20522C53EAF7 /* GoogleMaps.bundle */,
+				E629924C298ABB730555E8BEEC309F0B /* GoogleMaps.bundle */,
 			);
-			name = Maps;
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		B51EF28161DC6DC460C1051E75001294 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CEAB86802D9E4A6EF0B6E5BBEC0DB469 /* DropDown */,
+				425F4BE706216B81DC143FAFD8605F14 /* FSPagerView */,
+				991B7AA64076D5F0BE5FBB797FC1ED87 /* GoogleMaps */,
+				91FCCFB56D372A033EE22431276C07F2 /* GooglePlaces */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BD7BACAC0A3E5C9D336CCC21E9355C82 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9B6725B782188F18CB76A740433F14E4 /* DropDown.framework */,
+				0F47FB5E28EE8C8342B1776D813D1A4C /* FSPagerView.framework */,
+				6486FA710D2DCDA8BB71AA9D611F713B /* Pods_Dominos.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CEAB86802D9E4A6EF0B6E5BBEC0DB469 /* DropDown */ = {
+			isa = PBXGroup;
+			children = (
+				6211637E77C48C7B6A21221145727319 /* DPDConstants.swift */,
+				ECE895DFFD2AD5CD354458D9AE3362AE /* DPDKeyboardListener.swift */,
+				6B08C22BCE3E52442E21403E101E44ED /* DPDUIView+Extension.swift */,
+				FB9655C01A5BDEEA460C5571A154F8D2 /* DropDown.swift */,
+				C89D9B278701CE0BE57FAC0A52015A16 /* DropDown+Appearance.swift */,
+				92C7FF87A77E0C6324D9694B582BB55C /* DropDownCell.swift */,
+				5B8976A7974C777A22417817109F7C97 /* Resources */,
+				68E7000CC66A6CCDC390400F290199B1 /* Support Files */,
+			);
+			path = DropDown;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
@@ -310,26 +387,18 @@
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
-				99C2255D4772E884EBADA6D70B11299F /* Pods */,
-				4B3CEF55DB001957FF01250870D86751 /* Products */,
+				B51EF28161DC6DC460C1051E75001294 /* Pods */,
+				BD7BACAC0A3E5C9D336CCC21E9355C82 /* Products */,
 				9C65CED3AB3571CE3041ABD3056F32BE /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		D467A8A293A7F0EF46D1B6DFA5638627 /* Frameworks */ = {
+		D8508167267F9CB9A1CF3D5FD9A9B90D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				DC35AC3EB35961AB7E1D1C959487B224 /* GoogleMapsBase.xcframework */,
+				F3501E4278277D06645ABF9F52417E86 /* GoogleMapsBase.xcframework */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		ED1B387518CF283B8C59CFD6DEE4416D /* Base */ = {
-			isa = PBXGroup;
-			children = (
-				D467A8A293A7F0EF46D1B6DFA5638627 /* Frameworks */,
-			);
-			name = Base;
 			sourceTree = "<group>";
 		};
 		F938976FE415D8ABEB9490C9A295CE64 /* Pods-Dominos */ = {
@@ -350,6 +419,17 @@
 			path = "Target Support Files/Pods-Dominos";
 			sourceTree = "<group>";
 		};
+		FC94332F9DFFC45EB5D29002090AFCD9 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B4F48DFD1F3482CB29A3E3CAE10C73F0 /* GooglePlaces-xcframeworks.sh */,
+				B101D9C7B6087133C73D9A00440DAC0F /* GooglePlaces.debug.xcconfig */,
+				D9363B24656CC76F934A58F9A07E43D2 /* GooglePlaces.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/GooglePlaces";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -362,11 +442,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1A430B535BCBA061CE62BA9026AC1F7D /* Headers */ = {
+		220486D8DB78FD2DCD83359EE7011CBA /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				90BA57E36FCD699E0FCC365DAD548C2A /* Pods-Dominos-umbrella.h in Headers */,
+				69C21ECBF51BF1307E1325D80BC4DA93 /* Pods-Dominos-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97CE91431E229797751455423C79CA4F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0A8C46EEE733B55971B1CC5ED65C9AA /* DropDown-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -375,23 +463,24 @@
 /* Begin PBXNativeTarget section */
 		33F6078BAFB7244D28D883EB7017D887 /* Pods-Dominos */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D57BBA272813EF22F012FA97467A33D1 /* Build configuration list for PBXNativeTarget "Pods-Dominos" */;
+			buildConfigurationList = 668CE7EBD3658ADC07A5E4D60E22E294 /* Build configuration list for PBXNativeTarget "Pods-Dominos" */;
 			buildPhases = (
-				1A430B535BCBA061CE62BA9026AC1F7D /* Headers */,
-				522CE388D5DEDDB8480F20B23C94D1F9 /* Sources */,
-				6E7EC6B347C2DB70D5CCE124BFF1C031 /* Frameworks */,
-				4374FBF0DA8ABD5489F68D3C25927B17 /* Resources */,
+				220486D8DB78FD2DCD83359EE7011CBA /* Headers */,
+				940A70F7AD76634AB8DDF5B98F069980 /* Sources */,
+				F1CF7DAA6F2E4F6D58C798AA587E4BCA /* Frameworks */,
+				FB6F724AE27FB349B52A03DEC12B2A29 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				88ADEF6BCC6F815840D9E8CCB184A17B /* PBXTargetDependency */,
-				ADD5958EED494B0392BB6598412B53E9 /* PBXTargetDependency */,
-				B9E5CAEF1614CEFD1A9CC822E8E4D7A4 /* PBXTargetDependency */,
+				028CB5BC06C2D5279E848D9382C14127 /* PBXTargetDependency */,
+				516D02A7677A2BDB10D48E3F4D16B78C /* PBXTargetDependency */,
+				1CABCE137F8B62A15636DE1FDDC164B2 /* PBXTargetDependency */,
+				D095FA5AEF17E1B44A7F4BE3A5929DA0 /* PBXTargetDependency */,
 			);
 			name = "Pods-Dominos";
 			productName = Pods_Dominos;
-			productReference = 6486FA710D2DCDA8BB71AA9D611F713B /* Pods-Dominos */;
+			productReference = 6486FA710D2DCDA8BB71AA9D611F713B /* Pods_Dominos.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		D4F8239FB329387A8476B964D92D92E7 /* FSPagerView */ = {
@@ -412,14 +501,33 @@
 			productReference = 0F47FB5E28EE8C8342B1776D813D1A4C /* FSPagerView.framework */;
 			productType = "com.apple.product-type.framework";
 		};
+		E9F9401E9C74C0C393164FD8D86D0068 /* DropDown */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 53052E6CBA1E65D6EF818199E617AC68 /* Build configuration list for PBXNativeTarget "DropDown" */;
+			buildPhases = (
+				97CE91431E229797751455423C79CA4F /* Headers */,
+				48864C435B3DB37698CF568C638CF98F /* Sources */,
+				808BE4E171BD75B6477EC2B77490C2B1 /* Frameworks */,
+				EFDE5B37A62BFF2F9A9BD2023B960CD7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DropDown;
+			productName = DropDown;
+			productReference = 9B6725B782188F18CB76A740433F14E4 /* DropDown.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				BuildIndependentTargetsInParallel = YES;
 				LastSwiftUpdateCheck = 1300;
-				LastUpgradeCheck = 1300;
+				LastUpgradeCheck = 1430;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 14.0";
@@ -430,10 +538,11 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 4B3CEF55DB001957FF01250870D86751 /* Products */;
+			productRefGroup = BD7BACAC0A3E5C9D336CCC21E9355C82 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
+				E9F9401E9C74C0C393164FD8D86D0068 /* DropDown */,
 				D4F8239FB329387A8476B964D92D92E7 /* FSPagerView */,
 				E5B4BBC6DD552AC8943C7E22772FC1D3 /* GoogleMaps */,
 				0C1885900810601510E0C632060FAF26 /* GooglePlaces */,
@@ -443,14 +552,22 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		4374FBF0DA8ABD5489F68D3C25927B17 /* Resources */ = {
+		C51D8DC25EB55BC76B82A9E61C8BE832 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C51D8DC25EB55BC76B82A9E61C8BE832 /* Resources */ = {
+		EFDE5B37A62BFF2F9A9BD2023B960CD7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68E1653C561E14BBEAC9CF4873570D58 /* DropDownCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB6F724AE27FB349B52A03DEC12B2A29 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -497,11 +614,17 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		522CE388D5DEDDB8480F20B23C94D1F9 /* Sources */ = {
+		48864C435B3DB37698CF568C638CF98F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B6CC7619614561E8BBE85E9231DFE9DE /* Pods-Dominos-dummy.m in Sources */,
+				74012B832FAF67F8D62A2B27CDAFE8B5 /* DPDConstants.swift in Sources */,
+				89A72A55273CE358DC4E7600F785C37B /* DPDKeyboardListener.swift in Sources */,
+				B73E510E851686F8184E26986A470458 /* DPDUIView+Extension.swift in Sources */,
+				84459C4824533C9C4FD12AFC941F3CE1 /* DropDown.swift in Sources */,
+				515E22E4255B6073C1897BDDB091A2B8 /* DropDown+Appearance.swift in Sources */,
+				907338727C09F65DB75AA7AB9E10C3B4 /* DropDown-dummy.m in Sources */,
+				BDC10974A8641F01C5665C61EA37A153 /* DropDownCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -521,33 +644,47 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		940A70F7AD76634AB8DDF5B98F069980 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1E67AA36AC065346F3F59ECA5BF5ABF /* Pods-Dominos-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		88ADEF6BCC6F815840D9E8CCB184A17B /* PBXTargetDependency */ = {
+		028CB5BC06C2D5279E848D9382C14127 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = FSPagerView;
-			target = D4F8239FB329387A8476B964D92D92E7 /* FSPagerView */;
-			targetProxy = 1BBABBF157EE90EF1570A7AF1D6C9F62 /* PBXContainerItemProxy */;
+			name = DropDown;
+			target = E9F9401E9C74C0C393164FD8D86D0068 /* DropDown */;
+			targetProxy = 96FB93B8202F915EB9360B87CBF037D7 /* PBXContainerItemProxy */;
 		};
-		ADD5958EED494B0392BB6598412B53E9 /* PBXTargetDependency */ = {
+		1CABCE137F8B62A15636DE1FDDC164B2 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = GoogleMaps;
 			target = E5B4BBC6DD552AC8943C7E22772FC1D3 /* GoogleMaps */;
-			targetProxy = 256012CFA51242AB9C8799D8A45690BC /* PBXContainerItemProxy */;
+			targetProxy = 5349BB8A0A76C1E5F282111269BAE991 /* PBXContainerItemProxy */;
 		};
-		B9E5CAEF1614CEFD1A9CC822E8E4D7A4 /* PBXTargetDependency */ = {
+		516D02A7677A2BDB10D48E3F4D16B78C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FSPagerView;
+			target = D4F8239FB329387A8476B964D92D92E7 /* FSPagerView */;
+			targetProxy = 3BAE50E02EC46318DD256AAFF3398597 /* PBXContainerItemProxy */;
+		};
+		D095FA5AEF17E1B44A7F4BE3A5929DA0 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = GooglePlaces;
 			target = 0C1885900810601510E0C632060FAF26 /* GooglePlaces */;
-			targetProxy = B82607E59E2A4C00531DDDA35404C3A0 /* PBXContainerItemProxy */;
+			targetProxy = 0D7A5CBCEDFB08A8AD00C276DDFD6B5C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		1E4FBEF25DBF25F51C2B183360A11B3C /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 70D926B2C11310FAE9C5C1087DE5E4D1 /* GooglePlaces.debug.xcconfig */;
+			baseConfigurationReference = B101D9C7B6087133C73D9A00440DAC0F /* GooglePlaces.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -564,7 +701,7 @@
 		};
 		216A65D2080F16B130AA66217C6F2E9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B3FBCD59FB37CBA5E353D151388937A3 /* GooglePlaces.release.xcconfig */;
+			baseConfigurationReference = D9363B24656CC76F934A58F9A07E43D2 /* GooglePlaces.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -580,75 +717,9 @@
 			};
 			name = Release;
 		};
-		296F86E0DD688C440F8EB2FD9C0415AF /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_TESTABILITY = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_DEBUG=1",
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
-				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
-				MTL_FAST_MATH = YES;
-				ONLY_ACTIVE_ARCH = YES;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 5.0;
-				SYMROOT = "${SRCROOT}/../build";
-			};
-			name = Debug;
-		};
 		31731D2A96C7FF5AA4EE56EC2EB0AE2F /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 709DF3CA7FA3A3975D426C4DE4C8400C /* FSPagerView.release.xcconfig */;
+			baseConfigurationReference = E683B2801204B7D69B5E7D3033648572 /* FSPagerView.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -661,7 +732,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/FSPagerView/FSPagerView-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/FSPagerView/FSPagerView-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -683,7 +754,7 @@
 		};
 		434E4A52CBC9F74FA2D8CDD170442C4A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DFA86751F88AE952837ABDEA0EBB5B26 /* FSPagerView.debug.xcconfig */;
+			baseConfigurationReference = B214F691F5140F783D339444C2FE6375 /* FSPagerView.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -696,7 +767,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/FSPagerView/FSPagerView-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/FSPagerView/FSPagerView-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -715,96 +786,22 @@
 			};
 			name = Debug;
 		};
-		772056FC8D3751AE9221EDDB6956B4DC /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 87148952741922378E0DC639D419FF23 /* Pods-Dominos.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-Dominos/Pods-Dominos-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Dominos/Pods-Dominos.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		A0D32A92267F8EB045540F58A3FB9721 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B40B74CC4122FA0F9841BD1957A4C22C /* GoogleMaps.release.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		A6F9A3420493DDFF37FE086ABBB8AEA5 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5055E988A451CF92C71B0E65E7611F25 /* GoogleMaps.debug.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		F1AED10B463F56DE420D264ABA395248 /* Debug */ = {
+		60F2FBF66C51D47BCBF10E93E932EEF6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 57F87D5174AEA721B069A88D7EC469B2 /* Pods-Dominos.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CODE_SIGN_IDENTITY = "";
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
 				INFOPLIST_FILE = "Target Support Files/Pods-Dominos/Pods-Dominos-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -812,6 +809,8 @@
 				);
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-Dominos/Pods-Dominos.modulemap";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu11 gnu++14";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -825,7 +824,7 @@
 			};
 			name = Debug;
 		};
-		F3E264B2417BDFCD2BC2B58566242312 /* Release */ = {
+		7C3FBC45C4966EFE20583918767EFBE2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -860,6 +859,218 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		A0D32A92267F8EB045540F58A3FB9721 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DE14C6AE42856B0829BFE1FA69119645 /* GoogleMaps.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A6F9A3420493DDFF37FE086ABBB8AEA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3670B9779251E0306CD97CBB5F775454 /* GoogleMaps.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B2E68CE33B30D07C827E16AA1F914227 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 87148952741922378E0DC639D419FF23 /* Pods-Dominos.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Dominos/Pods-Dominos-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Dominos/Pods-Dominos.modulemap";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu11 gnu++14";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C24518E891FAA59668669823639498EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 820CA9891B2D4AC1EF3C9C87D9C68378 /* DropDown.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/DropDown/DropDown-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DropDown/DropDown-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/DropDown/DropDown.modulemap";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu11 gnu++14";
+				PRODUCT_MODULE_NAME = DropDown;
+				PRODUCT_NAME = DropDown;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E2CDE7BD114C532701D2E79C5CB4CAA8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F57A25771819093BCEEE6C5524E41C5 /* DropDown.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/DropDown/DropDown-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DropDown/DropDown-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/DropDown/DropDown.modulemap";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu11 gnu++14";
+				PRODUCT_MODULE_NAME = DropDown;
+				PRODUCT_NAME = DropDown;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FF0A36149038A192FFD678E1D4A40D3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -875,11 +1086,10 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				STRIP_INSTALLED_PRODUCT = NO;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
@@ -911,8 +1121,26 @@
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				296F86E0DD688C440F8EB2FD9C0415AF /* Debug */,
-				F3E264B2417BDFCD2BC2B58566242312 /* Release */,
+				7C3FBC45C4966EFE20583918767EFBE2 /* Debug */,
+				FF0A36149038A192FFD678E1D4A40D3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		53052E6CBA1E65D6EF818199E617AC68 /* Build configuration list for PBXNativeTarget "DropDown" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2CDE7BD114C532701D2E79C5CB4CAA8 /* Debug */,
+				C24518E891FAA59668669823639498EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		668CE7EBD3658ADC07A5E4D60E22E294 /* Build configuration list for PBXNativeTarget "Pods-Dominos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60F2FBF66C51D47BCBF10E93E932EEF6 /* Debug */,
+				B2E68CE33B30D07C827E16AA1F914227 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -922,15 +1150,6 @@
 			buildConfigurations = (
 				434E4A52CBC9F74FA2D8CDD170442C4A /* Debug */,
 				31731D2A96C7FF5AA4EE56EC2EB0AE2F /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		D57BBA272813EF22F012FA97467A33D1 /* Build configuration list for PBXNativeTarget "Pods-Dominos" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				F1AED10B463F56DE420D264ABA395248 /* Debug */,
-				772056FC8D3751AE9221EDDB6956B4DC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

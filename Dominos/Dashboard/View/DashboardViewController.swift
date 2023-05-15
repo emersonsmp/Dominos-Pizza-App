@@ -20,4 +20,10 @@ class DashboardViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
     }
+    
+    @objc func signInTapped(sender: UIButton) {
+            let homeVC = DashboardViewController()
+            let viewControllers = [homeVC]
+            self.navigationController?.setViewControllers(viewControllers, animated: true)
+    }
 }
