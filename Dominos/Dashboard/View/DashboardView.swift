@@ -141,6 +141,18 @@ class DashboardView: UIView {
         return frame
     }()
     
+    lazy var orderButton: UIButton = {
+        let button = UIButton(type: .system)
+        button.translatesAutoresizingMaskIntoConstraints = false
+        button.backgroundColor = DominoRed
+        button.setTitle("Novo Pedido", for: .normal)
+        button.setTitleColor(.white, for: .normal)
+        button.titleLabel?.font = UIFont(name: "arial-black", size: 18)
+        button.layer.cornerRadius = 20
+        button.layer.masksToBounds = true
+        return button
+    }()
+    
     override init(frame: CGRect) {
         super.init(frame: frame)
         
@@ -174,6 +186,7 @@ class DashboardView: UIView {
         addSubview(framePizza2)
         addSubview(framePizza3)
         addSubview(framePizza4)
+        addSubview(orderButton)
         
         NSLayoutConstraint.activate([
             logoImage.topAnchor.constraint(equalTo: topAnchor, constant: 50),
@@ -231,6 +244,11 @@ class DashboardView: UIView {
             framePizza4.topAnchor.constraint(equalTo: framePizza1.bottomAnchor, constant: 10),
             framePizza4.trailingAnchor.constraint(equalTo: trailingAnchor, constant: -margin),
             framePizza4.heightAnchor.constraint(equalToConstant: 120),
+            
+            orderButton.topAnchor.constraint(equalTo: framePizza4.bottomAnchor, constant: 30),
+            orderButton.leadingAnchor.constraint(equalTo: leadingAnchor, constant: margin),
+            orderButton.trailingAnchor.constraint(equalTo: trailingAnchor, constant:  -margin),
+            orderButton.heightAnchor.constraint(equalToConstant: 50)
         ])
     }
     
