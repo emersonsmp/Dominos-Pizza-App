@@ -46,7 +46,7 @@ class ButtonComponent: UIView {
     }
     
     override var intrinsicContentSize: CGSize {
-        return CGSize(width: 110, height: 50)
+        return CGSize(width: 110, height: 40)
     }
     
     private func setup() {

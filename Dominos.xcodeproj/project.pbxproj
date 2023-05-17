@@ -25,6 +25,7 @@
 		D25775772A0D3B91000ADEC7 /* HeaderButtonComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = D25775762A0D3B91000ADEC7 /* HeaderButtonComponent.swift */; };
 		D25775792A0D3DC3000ADEC7 /* ButtonComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = D25775782A0D3DC3000ADEC7 /* ButtonComponent.swift */; };
 		D257757B2A0D78DC000ADEC7 /* HeaderComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = D257757A2A0D78DC000ADEC7 /* HeaderComponent.swift */; };
+		D2EA7C5B2A12A49E006C724C /* ChoosePizzaTasteButtonComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2EA7C5A2A12A49E006C724C /* ChoosePizzaTasteButtonComponent.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,6 +51,7 @@
 		D25775762A0D3B91000ADEC7 /* HeaderButtonComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderButtonComponent.swift; sourceTree = "<group>"; };
 		D25775782A0D3DC3000ADEC7 /* ButtonComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonComponent.swift; sourceTree = "<group>"; };
 		D257757A2A0D78DC000ADEC7 /* HeaderComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderComponent.swift; sourceTree = "<group>"; };
+		D2EA7C5A2A12A49E006C724C /* ChoosePizzaTasteButtonComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChoosePizzaTasteButtonComponent.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -215,6 +217,7 @@
 				D25775762A0D3B91000ADEC7 /* HeaderButtonComponent.swift */,
 				D25775782A0D3DC3000ADEC7 /* ButtonComponent.swift */,
 				D257757A2A0D78DC000ADEC7 /* HeaderComponent.swift */,
+				D2EA7C5A2A12A49E006C724C /* ChoosePizzaTasteButtonComponent.swift */,
 			);
 			path = components;
 			sourceTree = "<group>";
@@ -393,6 +396,7 @@
 				D22AC7EE2A0AA55200C0659D /* DashboardView.swift in Sources */,
 				D25775732A0D3710000ADEC7 /* PizzaSelectionView.swift in Sources */,
 				D25775772A0D3B91000ADEC7 /* HeaderButtonComponent.swift in Sources */,
+				D2EA7C5B2A12A49E006C724C /* ChoosePizzaTasteButtonComponent.swift in Sources */,
 				D257757B2A0D78DC000ADEC7 /* HeaderComponent.swift in Sources */,
 				D25775792A0D3DC3000ADEC7 /* ButtonComponent.swift in Sources */,
 				D22AC7D92A09C1C100C0659D /* LoginView.swift in Sources */,

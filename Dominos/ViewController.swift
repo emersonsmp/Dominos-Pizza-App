@@ -22,7 +22,6 @@ class ViewController: UIViewController {
         login = LoginVIew()
         screen = DashboardView()
         screen2 = PizzaSelectionView()
-        screen3 = ButtonComponent()
         
         login?.buttonLogin.addTarget(self, action: #selector(signInTapped), for: .primaryActionTriggered)
         view = login

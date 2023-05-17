@@ -9,9 +9,15 @@ import Foundation
 import UIKit
 import DropDown
 
+var tasteDictionary: [String: String] = [ "Calabreza": "pizza-001", "Queijo": "pizza-002", "Jardineira": "pizza-003"]
+
+let LEFT_BUTTON = 1
+let RIGHT_BUTTON = 2
+
 class PizzaSelectionView: UIView {
     
     let options = ["Tradicional", "Finíssima", "Massa Grossa"]
+    let PizzaTastes = ["Calabreza", "Queijo", "Jardineira"]
     
     lazy var pageTitleLabel: UILabel = {
         let label = UILabel()
@@ -75,15 +81,6 @@ class PizzaSelectionView: UIView {
         button.delegate = self
         return button
     }()
-
-    lazy var Header: HeaderComponent = {
-        let dropMenu = HeaderComponent()
-        dropMenu.translatesAutoresizingMaskIntoConstraints = false
-        dropMenu.layer.cornerRadius = 8
-        dropMenu.layer.masksToBounds = true
-        dropMenu.delegate = self
-        return dropMenu
-    }()
     
     lazy var doughTypeLabel: UILabel = {
         let label = UILabel()
@@ -95,10 +92,20 @@ class PizzaSelectionView: UIView {
         return label
     }()
     
+    lazy var Header: HeaderComponent = {
+        let dropMenu = HeaderComponent()
+        dropMenu.translatesAutoresizingMaskIntoConstraints = false
+        dropMenu.layer.cornerRadius = 8
+        dropMenu.layer.masksToBounds = true
+        dropMenu.delegate = self
+        return dropMenu
+    }()
+    
     lazy var dropDown: DropDown = {
         let dropDown = DropDown()
         dropDown.translatesAutoresizingMaskIntoConstraints = false
         dropDown.dataSource = options
+        
         dropDown.anchorView = Header
         dropDown.bottomOffset = CGPoint(x: 0, y: Header.HeaderHeight)
         
@@ -119,14 +126,12 @@ class PizzaSelectionView: UIView {
     lazy var leftPizzaImage: UIImageView = {
         let image = UIImageView()
         image.translatesAutoresizingMaskIntoConstraints = false
-        image.image = UIImage(named: "pizza-001-left.png")
         return image
     }()
     
     lazy var rightPizzaImage: UIImageView = {
         let image = UIImageView()
         image.translatesAutoresizingMaskIntoConstraints = false
-        image.image = UIImage(named: "pizza-004-right.png")
         return image
     }()
     
@@ -142,10 +147,45 @@ class PizzaSelectionView: UIView {
         return button
     }()
     
+    lazy var addPizzaTasteLeftbutton: ChoosePizzaTasteButtonComponent = {
+        let view = ChoosePizzaTasteButtonComponent()
+        view.tag = LEFT_BUTTON
+        view.addGestureRecognizer(UITapGestureRecognizer(target: self, action: #selector(buttonTapped(_:))))
+        view.backgroundColor = DominoRed
+        view.layer.cornerRadius = 14
+        view.layer.masksToBounds = true
+        return view
+    }()
+    
+    lazy var addPizzaTasteRightbutton: ChoosePizzaTasteButtonComponent = {
+        let view = ChoosePizzaTasteButtonComponent()
+        view.tag = RIGHT_BUTTON
+        view.addGestureRecognizer(UITapGestureRecognizer(target: self, action: #selector(buttonTapped(_:))))
+        view.backgroundColor = DominoRed
+        view.layer.cornerRadius = 14
+        view.layer.masksToBounds = true
+        return view
+    }()
+    
+    lazy var pizzaTastedropDown: DropDown = {
+        let dropDown = DropDown()
+        dropDown.translatesAutoresizingMaskIntoConstraints = false
+        dropDown.backgroundColor = dominoBlue
+        dropDown.dataSource = PizzaTastes
+        return dropDown
+    }()
+    
     override init(frame: CGRect) {
         super.init(frame: frame)
+        setup()
+        layout()
+    }
+    
+    func setup(){
         backgroundColor = dominoBlue
-
+    }
+    
+    func layout(){
         addSubview(perfilImage)
         addSubview(perfilLabel)
         addSubview(pageTitleLabel)
@@ -162,8 +202,11 @@ class PizzaSelectionView: UIView {
         addSubview(rightPizzaImage)
         addSubview(addToCartbutton)
         
+        addSubview(addPizzaTasteLeftbutton)
+        addSubview(addPizzaTasteRightbutton)
+        
         NSLayoutConstraint.activate([
-            pageTitleLabel.topAnchor.constraint(equalTo: topAnchor, constant: 70),
+            pageTitleLabel.topAnchor.constraint(equalTo: topAnchor, constant: 65),
             pageTitleLabel.centerXAnchor.constraint(equalTo: centerXAnchor),
             
             perfilImage.topAnchor.constraint(equalTo: topAnchor, constant: 50),
@@ -217,14 +260,18 @@ class PizzaSelectionView: UIView {
             addToCartbutton.topAnchor.constraint(equalTo: backgroundPizzaImage.bottomAnchor, constant: 50),
             addToCartbutton.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 20),
             addToCartbutton.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: -20),
-            addToCartbutton.heightAnchor.constraint(equalToConstant: 50)
+            addToCartbutton.heightAnchor.constraint(equalToConstant: 50),
+            
+            addPizzaTasteLeftbutton.leadingAnchor.constraint(equalTo: backgroundPizzaImage.leadingAnchor, constant: -24),
+            addPizzaTasteLeftbutton.centerYAnchor.constraint(equalTo: backgroundPizzaImage.centerYAnchor),
+            addPizzaTasteLeftbutton.heightAnchor.constraint(equalToConstant: 40),
+            addPizzaTasteLeftbutton.widthAnchor.constraint(equalToConstant: 100),
+
+            addPizzaTasteRightbutton.trailingAnchor.constraint(equalTo: backgroundPizzaImage.trailingAnchor, constant: 24),
+            addPizzaTasteRightbutton.centerYAnchor.constraint(equalTo: backgroundPizzaImage.centerYAnchor)
        ])
     }
     
-    @objc func showDropDown() {
-        dropDown.show()
-    }
-
     required init?(coder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
@@ -232,12 +279,48 @@ class PizzaSelectionView: UIView {
 
 extension PizzaSelectionView: HeaderButtonComponentDelegate{
     func didSelectButton(at index: Int) {
-        
     }
 }
 
 extension PizzaSelectionView: HeaderComponentDelegate {
     func headerComponent(_ headerComponent: HeaderComponent, didSelectOption option: String) {
         dropDown.show()
+    }
+}
+
+extension PizzaSelectionView {
+    @objc private func buttonTapped(_ sender: UITapGestureRecognizer) {
+        
+        guard let button = sender.view else {
+            return
+        }
+        
+        if button.tag == LEFT_BUTTON {
+            pizzaTastedropDown.anchorView = addPizzaTasteLeftbutton
+            pizzaTastedropDown.bottomOffset = CGPoint(x: 0, y: 50)
+            pizzaTastedropDown.selectionAction = {(index: Int, item: String) in
+                guard let tasteLeft = tasteDictionary[item] else {
+                    return
+                }
+                
+                self.leftPizzaImage.image = UIImage(named: "\(tasteLeft)-left")
+                self.addPizzaTasteLeftbutton.pizzaLabel.text = item
+            }
+            pizzaTastedropDown.show()
+        }
+        
+        if button.tag == RIGHT_BUTTON {
+            pizzaTastedropDown.anchorView = addPizzaTasteRightbutton
+            pizzaTastedropDown.bottomOffset = CGPoint(x: 0, y: 50)
+            pizzaTastedropDown.selectionAction = {(index: Int, item: String) in
+                guard let tasteRight = tasteDictionary[item] else {
+                    return
+                }
+                
+                self.rightPizzaImage.image = UIImage(named: "\(tasteRight)-right")
+                self.addPizzaTasteRightbutton.pizzaLabel.text = item
+            }
+            pizzaTastedropDown.show()
+        }
     }
 }
